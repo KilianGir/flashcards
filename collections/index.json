@@ -1,0 +1,5 @@
+{
+  "collections": [
+    { "id": "exemple-modele", "name": "Exemple — modèle de collection", "file": "collections/exemple-modele.json" }
+  ]
+}

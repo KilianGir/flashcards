@@ -1,0 +1,66 @@
+{
+  "id": "exemple-modele",
+  "name": "Exemple — modèle de collection",
+  "cards": [
+    {
+      "id": "c_modele_001",
+      "tags": ["modele", "texte"],
+      "front": {
+        "text": "Carte texte simple : quelle est la capitale de la Suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Berne**.\n\nLe recto et le verso acceptent du Markdown : gras, *italique*, listes, `code`.",
+        "image": ""
+      }
+    },
+    {
+      "id": "c_modele_002",
+      "tags": ["modele", "latex", "maths"],
+      "front": {
+        "text": "Carte avec équation : quelle est l'aire d'un cercle de rayon $r$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\pi r^2$$\n\nLaTeX inline avec `$...$`, ou en bloc avec `$$...$$`.",
+        "image": ""
+      }
+    },
+    {
+      "id": "c_modele_003",
+      "tags": ["modele", "image"],
+      "front": {
+        "text": "Carte avec image au recto (chemin relatif vers le dossier assets/).",
+        "image": "assets/exemple-modele/recto.png"
+      },
+      "back": {
+        "text": "Le verso peut aussi avoir sa propre image en plus du texte.",
+        "image": "assets/exemple-modele/verso.png"
+      }
+    },
+    {
+      "id": "c_modele_004",
+      "tags": ["modele", "mixte"],
+      "front": {
+        "text": "Carte mixte : texte + image + équation, tout combiné.\n\nÉnergie cinétique : $E_c = \\tfrac{1}{2}mv^2$",
+        "image": "assets/exemple-modele/schema.png"
+      },
+      "back": {
+        "text": "On peut tout mélanger librement : texte, Markdown, LaTeX et image sur la même face.",
+        "image": ""
+      }
+    },
+    {
+      "id": "c_modele_005",
+      "tags": ["modele", "sans-image"],
+      "front": {
+        "text": "Le champ `image` peut rester une chaîne vide si la carte n'en a pas besoin.",
+        "image": ""
+      },
+      "back": {
+        "text": "C'est le cas par défaut : seul le champ `text` est obligatoire d'un côté au moins.",
+        "image": ""
+      }
+    }
+  ]
+}
