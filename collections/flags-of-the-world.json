@@ -1,0 +1,3576 @@
+{
+  "id": "flags-of-the-world",
+  "name": "Drapeaux du monde",
+  "cards": [
+    {
+      "id": "flag_ad",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ad.svg"
+      },
+      "back": {
+        "text": "**Andorra**  \n*Code : AD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ae",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ae.svg"
+      },
+      "back": {
+        "text": "**United Arab Emirates**  \n*Code : AE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_af",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/af.svg"
+      },
+      "back": {
+        "text": "**Afghanistan**  \n*Code : AF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ag",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ag.svg"
+      },
+      "back": {
+        "text": "**Antigua and Barbuda**  \n*Code : AG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ai",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ai.svg"
+      },
+      "back": {
+        "text": "**Anguilla**  \n*Code : AI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_al",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/al.svg"
+      },
+      "back": {
+        "text": "**Albania**  \n*Code : AL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_am",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/am.svg"
+      },
+      "back": {
+        "text": "**Armenia**  \n*Code : AM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ao",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ao.svg"
+      },
+      "back": {
+        "text": "**Angola**  \n*Code : AO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_aq",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/aq.svg"
+      },
+      "back": {
+        "text": "**Antarctica**  \n*Code : AQ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ar",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ar.svg"
+      },
+      "back": {
+        "text": "**Argentina**  \n*Code : AR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_as",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/as.svg"
+      },
+      "back": {
+        "text": "**American Samoa**  \n*Code : AS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_at",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/at.svg"
+      },
+      "back": {
+        "text": "**Austria**  \n*Code : AT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_au",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/au.svg"
+      },
+      "back": {
+        "text": "**Australia**  \n*Code : AU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_aw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/aw.svg"
+      },
+      "back": {
+        "text": "**Aruba**  \n*Code : AW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ax",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ax.svg"
+      },
+      "back": {
+        "text": "**Åland Islands**  \n*Code : AX*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_az",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/az.svg"
+      },
+      "back": {
+        "text": "**Azerbaijan**  \n*Code : AZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ba",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ba.svg"
+      },
+      "back": {
+        "text": "**Bosnia and Herzegovina**  \n*Code : BA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bb",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bb.svg"
+      },
+      "back": {
+        "text": "**Barbados**  \n*Code : BB*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bd",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bd.svg"
+      },
+      "back": {
+        "text": "**Bangladesh**  \n*Code : BD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_be",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/be.svg"
+      },
+      "back": {
+        "text": "**Belgium**  \n*Code : BE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bf.svg"
+      },
+      "back": {
+        "text": "**Burkina Faso**  \n*Code : BF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bg.svg"
+      },
+      "back": {
+        "text": "**Bulgaria**  \n*Code : BG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bh.svg"
+      },
+      "back": {
+        "text": "**Bahrain**  \n*Code : BH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bi",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bi.svg"
+      },
+      "back": {
+        "text": "**Burundi**  \n*Code : BI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bj",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bj.svg"
+      },
+      "back": {
+        "text": "**Benin**  \n*Code : BJ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bl.svg"
+      },
+      "back": {
+        "text": "**Saint Barthélemy**  \n*Code : BL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bm.svg"
+      },
+      "back": {
+        "text": "**Bermuda**  \n*Code : BM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bn.svg"
+      },
+      "back": {
+        "text": "**Brunei Darussalam**  \n*Code : BN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bo",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bo.svg"
+      },
+      "back": {
+        "text": "**Bolivia, Plurinational State of**  \n*Code : BO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bq",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bq.svg"
+      },
+      "back": {
+        "text": "**Caribbean Netherlands**  \n*Code : BQ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_br",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/br.svg"
+      },
+      "back": {
+        "text": "**Brazil**  \n*Code : BR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bs",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bs.svg"
+      },
+      "back": {
+        "text": "**Bahamas**  \n*Code : BS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bt.svg"
+      },
+      "back": {
+        "text": "**Bhutan**  \n*Code : BT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bv.svg"
+      },
+      "back": {
+        "text": "**Bouvet Island**  \n*Code : BV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bw.svg"
+      },
+      "back": {
+        "text": "**Botswana**  \n*Code : BW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_by",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/by.svg"
+      },
+      "back": {
+        "text": "**Belarus**  \n*Code : BY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_bz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/bz.svg"
+      },
+      "back": {
+        "text": "**Belize**  \n*Code : BZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ca",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ca.svg"
+      },
+      "back": {
+        "text": "**Canada**  \n*Code : CA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cc.svg"
+      },
+      "back": {
+        "text": "**Cocos (Keeling) Islands**  \n*Code : CC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cd",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cd.svg"
+      },
+      "back": {
+        "text": "**Congo, the Democratic Republic of the**  \n*Code : CD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cf.svg"
+      },
+      "back": {
+        "text": "**Central African Republic**  \n*Code : CF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cg.svg"
+      },
+      "back": {
+        "text": "**Republic of the Congo**  \n*Code : CG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ch",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ch.svg"
+      },
+      "back": {
+        "text": "**Switzerland**  \n*Code : CH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ci",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ci.svg"
+      },
+      "back": {
+        "text": "**Côte d'Ivoire**  \n*Code : CI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ck",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ck.svg"
+      },
+      "back": {
+        "text": "**Cook Islands**  \n*Code : CK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cl.svg"
+      },
+      "back": {
+        "text": "**Chile**  \n*Code : CL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cm.svg"
+      },
+      "back": {
+        "text": "**Cameroon**  \n*Code : CM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cn.svg"
+      },
+      "back": {
+        "text": "**China (People's Republic of China)**  \n*Code : CN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_co",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/co.svg"
+      },
+      "back": {
+        "text": "**Colombia**  \n*Code : CO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cr.svg"
+      },
+      "back": {
+        "text": "**Costa Rica**  \n*Code : CR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cu.svg"
+      },
+      "back": {
+        "text": "**Cuba**  \n*Code : CU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cv.svg"
+      },
+      "back": {
+        "text": "**Cape Verde**  \n*Code : CV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cw.svg"
+      },
+      "back": {
+        "text": "**Curaçao**  \n*Code : CW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cx",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cx.svg"
+      },
+      "back": {
+        "text": "**Christmas Island**  \n*Code : CX*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cy",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cy.svg"
+      },
+      "back": {
+        "text": "**Cyprus**  \n*Code : CY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_cz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/cz.svg"
+      },
+      "back": {
+        "text": "**Czech Republic**  \n*Code : CZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_de",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/de.svg"
+      },
+      "back": {
+        "text": "**Germany**  \n*Code : DE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_dj",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/dj.svg"
+      },
+      "back": {
+        "text": "**Djibouti**  \n*Code : DJ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_dk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/dk.svg"
+      },
+      "back": {
+        "text": "**Denmark**  \n*Code : DK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_dm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/dm.svg"
+      },
+      "back": {
+        "text": "**Dominica**  \n*Code : DM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_do",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/do.svg"
+      },
+      "back": {
+        "text": "**Dominican Republic**  \n*Code : DO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_dz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/dz.svg"
+      },
+      "back": {
+        "text": "**Algeria**  \n*Code : DZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ec",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ec.svg"
+      },
+      "back": {
+        "text": "**Ecuador**  \n*Code : EC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ee",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ee.svg"
+      },
+      "back": {
+        "text": "**Estonia**  \n*Code : EE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_eg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/eg.svg"
+      },
+      "back": {
+        "text": "**Egypt**  \n*Code : EG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_eh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/eh.svg"
+      },
+      "back": {
+        "text": "**Western Sahara**  \n*Code : EH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_er",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/er.svg"
+      },
+      "back": {
+        "text": "**Eritrea**  \n*Code : ER*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_es",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/es.svg"
+      },
+      "back": {
+        "text": "**Spain**  \n*Code : ES*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_et",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/et.svg"
+      },
+      "back": {
+        "text": "**Ethiopia**  \n*Code : ET*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_eu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/eu.svg"
+      },
+      "back": {
+        "text": "**Europe**  \n*Code : EU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fi",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fi.svg"
+      },
+      "back": {
+        "text": "**Finland**  \n*Code : FI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fj",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fj.svg"
+      },
+      "back": {
+        "text": "**Fiji**  \n*Code : FJ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fk.svg"
+      },
+      "back": {
+        "text": "**Falkland Islands (Malvinas)**  \n*Code : FK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fm.svg"
+      },
+      "back": {
+        "text": "**Micronesia, Federated States of**  \n*Code : FM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fo",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fo.svg"
+      },
+      "back": {
+        "text": "**Faroe Islands**  \n*Code : FO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_fr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/fr.svg"
+      },
+      "back": {
+        "text": "**France**  \n*Code : FR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ga",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ga.svg"
+      },
+      "back": {
+        "text": "**Gabon**  \n*Code : GA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gb-eng",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gb-eng.svg"
+      },
+      "back": {
+        "text": "**England**  \n*Code : GB-ENG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gb-nir",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gb-nir.svg"
+      },
+      "back": {
+        "text": "**Northern Ireland**  \n*Code : GB-NIR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gb-sct",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gb-sct.svg"
+      },
+      "back": {
+        "text": "**Scotland**  \n*Code : GB-SCT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gb-wls",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gb-wls.svg"
+      },
+      "back": {
+        "text": "**Wales**  \n*Code : GB-WLS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gb",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gb.svg"
+      },
+      "back": {
+        "text": "**United Kingdom**  \n*Code : GB*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gd",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gd.svg"
+      },
+      "back": {
+        "text": "**Grenada**  \n*Code : GD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ge",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ge.svg"
+      },
+      "back": {
+        "text": "**Georgia**  \n*Code : GE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gf.svg"
+      },
+      "back": {
+        "text": "**French Guiana**  \n*Code : GF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gg.svg"
+      },
+      "back": {
+        "text": "**Guernsey**  \n*Code : GG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gh.svg"
+      },
+      "back": {
+        "text": "**Ghana**  \n*Code : GH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gi",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gi.svg"
+      },
+      "back": {
+        "text": "**Gibraltar**  \n*Code : GI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gl.svg"
+      },
+      "back": {
+        "text": "**Greenland**  \n*Code : GL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gm.svg"
+      },
+      "back": {
+        "text": "**Gambia**  \n*Code : GM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gn.svg"
+      },
+      "back": {
+        "text": "**Guinea**  \n*Code : GN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gp",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gp.svg"
+      },
+      "back": {
+        "text": "**Guadeloupe**  \n*Code : GP*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gq",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gq.svg"
+      },
+      "back": {
+        "text": "**Equatorial Guinea**  \n*Code : GQ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gr.svg"
+      },
+      "back": {
+        "text": "**Greece**  \n*Code : GR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gs",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gs.svg"
+      },
+      "back": {
+        "text": "**South Georgia and the South Sandwich Islands**  \n*Code : GS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gt.svg"
+      },
+      "back": {
+        "text": "**Guatemala**  \n*Code : GT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gu.svg"
+      },
+      "back": {
+        "text": "**Guam**  \n*Code : GU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gw.svg"
+      },
+      "back": {
+        "text": "**Guinea-Bissau**  \n*Code : GW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_gy",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/gy.svg"
+      },
+      "back": {
+        "text": "**Guyana**  \n*Code : GY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_hk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/hk.svg"
+      },
+      "back": {
+        "text": "**Hong Kong**  \n*Code : HK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_hm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/hm.svg"
+      },
+      "back": {
+        "text": "**Heard Island and McDonald Islands**  \n*Code : HM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_hn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/hn.svg"
+      },
+      "back": {
+        "text": "**Honduras**  \n*Code : HN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_hr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/hr.svg"
+      },
+      "back": {
+        "text": "**Croatia**  \n*Code : HR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ht",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ht.svg"
+      },
+      "back": {
+        "text": "**Haiti**  \n*Code : HT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_hu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/hu.svg"
+      },
+      "back": {
+        "text": "**Hungary**  \n*Code : HU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_id",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/id.svg"
+      },
+      "back": {
+        "text": "**Indonesia**  \n*Code : ID*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ie",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ie.svg"
+      },
+      "back": {
+        "text": "**Ireland**  \n*Code : IE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_il",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/il.svg"
+      },
+      "back": {
+        "text": "**Israel**  \n*Code : IL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_im",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/im.svg"
+      },
+      "back": {
+        "text": "**Isle of Man**  \n*Code : IM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_in",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/in.svg"
+      },
+      "back": {
+        "text": "**India**  \n*Code : IN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_io",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/io.svg"
+      },
+      "back": {
+        "text": "**British Indian Ocean Territory**  \n*Code : IO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_iq",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/iq.svg"
+      },
+      "back": {
+        "text": "**Iraq**  \n*Code : IQ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ir",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ir.svg"
+      },
+      "back": {
+        "text": "**Iran, Islamic Republic of**  \n*Code : IR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_is",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/is.svg"
+      },
+      "back": {
+        "text": "**Iceland**  \n*Code : IS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_it",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/it.svg"
+      },
+      "back": {
+        "text": "**Italy**  \n*Code : IT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_je",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/je.svg"
+      },
+      "back": {
+        "text": "**Jersey**  \n*Code : JE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_jm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/jm.svg"
+      },
+      "back": {
+        "text": "**Jamaica**  \n*Code : JM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_jo",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/jo.svg"
+      },
+      "back": {
+        "text": "**Jordan**  \n*Code : JO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_jp",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/jp.svg"
+      },
+      "back": {
+        "text": "**Japan**  \n*Code : JP*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ke",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ke.svg"
+      },
+      "back": {
+        "text": "**Kenya**  \n*Code : KE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kg.svg"
+      },
+      "back": {
+        "text": "**Kyrgyzstan**  \n*Code : KG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kh.svg"
+      },
+      "back": {
+        "text": "**Cambodia**  \n*Code : KH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ki",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ki.svg"
+      },
+      "back": {
+        "text": "**Kiribati**  \n*Code : KI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_km",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/km.svg"
+      },
+      "back": {
+        "text": "**Comoros**  \n*Code : KM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kn.svg"
+      },
+      "back": {
+        "text": "**Saint Kitts and Nevis**  \n*Code : KN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kp",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kp.svg"
+      },
+      "back": {
+        "text": "**Korea, Democratic People's Republic of**  \n*Code : KP*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kr.svg"
+      },
+      "back": {
+        "text": "**Korea, Republic of**  \n*Code : KR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kw.svg"
+      },
+      "back": {
+        "text": "**Kuwait**  \n*Code : KW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ky",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ky.svg"
+      },
+      "back": {
+        "text": "**Cayman Islands**  \n*Code : KY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_kz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/kz.svg"
+      },
+      "back": {
+        "text": "**Kazakhstan**  \n*Code : KZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_la",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/la.svg"
+      },
+      "back": {
+        "text": "**Laos (Lao People's Democratic Republic)**  \n*Code : LA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lb",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lb.svg"
+      },
+      "back": {
+        "text": "**Lebanon**  \n*Code : LB*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lc.svg"
+      },
+      "back": {
+        "text": "**Saint Lucia**  \n*Code : LC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_li",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/li.svg"
+      },
+      "back": {
+        "text": "**Liechtenstein**  \n*Code : LI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lk.svg"
+      },
+      "back": {
+        "text": "**Sri Lanka**  \n*Code : LK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lr.svg"
+      },
+      "back": {
+        "text": "**Liberia**  \n*Code : LR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ls",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ls.svg"
+      },
+      "back": {
+        "text": "**Lesotho**  \n*Code : LS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lt.svg"
+      },
+      "back": {
+        "text": "**Lithuania**  \n*Code : LT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lu.svg"
+      },
+      "back": {
+        "text": "**Luxembourg**  \n*Code : LU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_lv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/lv.svg"
+      },
+      "back": {
+        "text": "**Latvia**  \n*Code : LV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ly",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ly.svg"
+      },
+      "back": {
+        "text": "**Libya**  \n*Code : LY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ma",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ma.svg"
+      },
+      "back": {
+        "text": "**Morocco**  \n*Code : MA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mc.svg"
+      },
+      "back": {
+        "text": "**Monaco**  \n*Code : MC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_md",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/md.svg"
+      },
+      "back": {
+        "text": "**Moldova, Republic of**  \n*Code : MD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_me",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/me.svg"
+      },
+      "back": {
+        "text": "**Montenegro**  \n*Code : ME*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mf.svg"
+      },
+      "back": {
+        "text": "**Saint Martin**  \n*Code : MF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mg.svg"
+      },
+      "back": {
+        "text": "**Madagascar**  \n*Code : MG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mh.svg"
+      },
+      "back": {
+        "text": "**Marshall Islands**  \n*Code : MH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mk.svg"
+      },
+      "back": {
+        "text": "**North Macedonia**  \n*Code : MK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ml",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ml.svg"
+      },
+      "back": {
+        "text": "**Mali**  \n*Code : ML*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mm.svg"
+      },
+      "back": {
+        "text": "**Myanmar**  \n*Code : MM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mn.svg"
+      },
+      "back": {
+        "text": "**Mongolia**  \n*Code : MN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mo",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mo.svg"
+      },
+      "back": {
+        "text": "**Macao**  \n*Code : MO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mp",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mp.svg"
+      },
+      "back": {
+        "text": "**Northern Mariana Islands**  \n*Code : MP*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mq",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mq.svg"
+      },
+      "back": {
+        "text": "**Martinique**  \n*Code : MQ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mr.svg"
+      },
+      "back": {
+        "text": "**Mauritania**  \n*Code : MR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ms",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ms.svg"
+      },
+      "back": {
+        "text": "**Montserrat**  \n*Code : MS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mt.svg"
+      },
+      "back": {
+        "text": "**Malta**  \n*Code : MT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mu.svg"
+      },
+      "back": {
+        "text": "**Mauritius**  \n*Code : MU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mv.svg"
+      },
+      "back": {
+        "text": "**Maldives**  \n*Code : MV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mw.svg"
+      },
+      "back": {
+        "text": "**Malawi**  \n*Code : MW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mx",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mx.svg"
+      },
+      "back": {
+        "text": "**Mexico**  \n*Code : MX*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_my",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/my.svg"
+      },
+      "back": {
+        "text": "**Malaysia**  \n*Code : MY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_mz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/mz.svg"
+      },
+      "back": {
+        "text": "**Mozambique**  \n*Code : MZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_na",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/na.svg"
+      },
+      "back": {
+        "text": "**Namibia**  \n*Code : NA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nc.svg"
+      },
+      "back": {
+        "text": "**New Caledonia**  \n*Code : NC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ne",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ne.svg"
+      },
+      "back": {
+        "text": "**Niger**  \n*Code : NE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nf.svg"
+      },
+      "back": {
+        "text": "**Norfolk Island**  \n*Code : NF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ng",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ng.svg"
+      },
+      "back": {
+        "text": "**Nigeria**  \n*Code : NG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ni",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ni.svg"
+      },
+      "back": {
+        "text": "**Nicaragua**  \n*Code : NI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nl.svg"
+      },
+      "back": {
+        "text": "**Netherlands**  \n*Code : NL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_no",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/no.svg"
+      },
+      "back": {
+        "text": "**Norway**  \n*Code : NO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_np",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/np.svg"
+      },
+      "back": {
+        "text": "**Nepal**  \n*Code : NP*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nr.svg"
+      },
+      "back": {
+        "text": "**Nauru**  \n*Code : NR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nu.svg"
+      },
+      "back": {
+        "text": "**Niue**  \n*Code : NU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_nz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/nz.svg"
+      },
+      "back": {
+        "text": "**New Zealand**  \n*Code : NZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_om",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/om.svg"
+      },
+      "back": {
+        "text": "**Oman**  \n*Code : OM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pa",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pa.svg"
+      },
+      "back": {
+        "text": "**Panama**  \n*Code : PA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pe",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pe.svg"
+      },
+      "back": {
+        "text": "**Peru**  \n*Code : PE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pf.svg"
+      },
+      "back": {
+        "text": "**French Polynesia**  \n*Code : PF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pg.svg"
+      },
+      "back": {
+        "text": "**Papua New Guinea**  \n*Code : PG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ph",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ph.svg"
+      },
+      "back": {
+        "text": "**Philippines**  \n*Code : PH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pk.svg"
+      },
+      "back": {
+        "text": "**Pakistan**  \n*Code : PK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pl.svg"
+      },
+      "back": {
+        "text": "**Poland**  \n*Code : PL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pm.svg"
+      },
+      "back": {
+        "text": "**Saint Pierre and Miquelon**  \n*Code : PM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pn.svg"
+      },
+      "back": {
+        "text": "**Pitcairn**  \n*Code : PN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pr.svg"
+      },
+      "back": {
+        "text": "**Puerto Rico**  \n*Code : PR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ps",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ps.svg"
+      },
+      "back": {
+        "text": "**Palestine**  \n*Code : PS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pt.svg"
+      },
+      "back": {
+        "text": "**Portugal**  \n*Code : PT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_pw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/pw.svg"
+      },
+      "back": {
+        "text": "**Palau**  \n*Code : PW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_py",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/py.svg"
+      },
+      "back": {
+        "text": "**Paraguay**  \n*Code : PY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_qa",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/qa.svg"
+      },
+      "back": {
+        "text": "**Qatar**  \n*Code : QA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_re",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/re.svg"
+      },
+      "back": {
+        "text": "**Réunion**  \n*Code : RE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ro",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ro.svg"
+      },
+      "back": {
+        "text": "**Romania**  \n*Code : RO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_rs",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/rs.svg"
+      },
+      "back": {
+        "text": "**Serbia**  \n*Code : RS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ru",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ru.svg"
+      },
+      "back": {
+        "text": "**Russian Federation**  \n*Code : RU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_rw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/rw.svg"
+      },
+      "back": {
+        "text": "**Rwanda**  \n*Code : RW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sa",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sa.svg"
+      },
+      "back": {
+        "text": "**Saudi Arabia**  \n*Code : SA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sb",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sb.svg"
+      },
+      "back": {
+        "text": "**Solomon Islands**  \n*Code : SB*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sc.svg"
+      },
+      "back": {
+        "text": "**Seychelles**  \n*Code : SC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sd",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sd.svg"
+      },
+      "back": {
+        "text": "**Sudan**  \n*Code : SD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_se",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/se.svg"
+      },
+      "back": {
+        "text": "**Sweden**  \n*Code : SE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sg.svg"
+      },
+      "back": {
+        "text": "**Singapore**  \n*Code : SG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sh",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sh.svg"
+      },
+      "back": {
+        "text": "**Saint Helena, Ascension and Tristan da Cunha**  \n*Code : SH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_si",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/si.svg"
+      },
+      "back": {
+        "text": "**Slovenia**  \n*Code : SI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sj",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sj.svg"
+      },
+      "back": {
+        "text": "**Svalbard and Jan Mayen Islands**  \n*Code : SJ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sk.svg"
+      },
+      "back": {
+        "text": "**Slovakia**  \n*Code : SK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sl.svg"
+      },
+      "back": {
+        "text": "**Sierra Leone**  \n*Code : SL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sm.svg"
+      },
+      "back": {
+        "text": "**San Marino**  \n*Code : SM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sn.svg"
+      },
+      "back": {
+        "text": "**Senegal**  \n*Code : SN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_so",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/so.svg"
+      },
+      "back": {
+        "text": "**Somalia**  \n*Code : SO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sr.svg"
+      },
+      "back": {
+        "text": "**Suriname**  \n*Code : SR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ss",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ss.svg"
+      },
+      "back": {
+        "text": "**South Sudan**  \n*Code : SS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_st",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/st.svg"
+      },
+      "back": {
+        "text": "**Sao Tome and Principe**  \n*Code : ST*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sv.svg"
+      },
+      "back": {
+        "text": "**El Salvador**  \n*Code : SV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sx",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sx.svg"
+      },
+      "back": {
+        "text": "**Sint Maarten (Dutch part)**  \n*Code : SX*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sy",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sy.svg"
+      },
+      "back": {
+        "text": "**Syrian Arab Republic**  \n*Code : SY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_sz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/sz.svg"
+      },
+      "back": {
+        "text": "**Kingdom of Eswatini**  \n*Code : SZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tc.svg"
+      },
+      "back": {
+        "text": "**Turks and Caicos Islands**  \n*Code : TC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_td",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/td.svg"
+      },
+      "back": {
+        "text": "**Chad**  \n*Code : TD*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tf.svg"
+      },
+      "back": {
+        "text": "**French Southern Territories**  \n*Code : TF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tg.svg"
+      },
+      "back": {
+        "text": "**Togo**  \n*Code : TG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_th",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/th.svg"
+      },
+      "back": {
+        "text": "**Thailand**  \n*Code : TH*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tj",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tj.svg"
+      },
+      "back": {
+        "text": "**Tajikistan**  \n*Code : TJ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tk.svg"
+      },
+      "back": {
+        "text": "**Tokelau**  \n*Code : TK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tl",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tl.svg"
+      },
+      "back": {
+        "text": "**Timor-Leste**  \n*Code : TL*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tm.svg"
+      },
+      "back": {
+        "text": "**Turkmenistan**  \n*Code : TM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tn.svg"
+      },
+      "back": {
+        "text": "**Tunisia**  \n*Code : TN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_to",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/to.svg"
+      },
+      "back": {
+        "text": "**Tonga**  \n*Code : TO*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tr",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tr.svg"
+      },
+      "back": {
+        "text": "**Republic of Türkiye**  \n*Code : TR*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tt.svg"
+      },
+      "back": {
+        "text": "**Trinidad and Tobago**  \n*Code : TT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tv",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tv.svg"
+      },
+      "back": {
+        "text": "**Tuvalu**  \n*Code : TV*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tw.svg"
+      },
+      "back": {
+        "text": "**Taiwan (Republic of China)**  \n*Code : TW*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_tz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/tz.svg"
+      },
+      "back": {
+        "text": "**Tanzania, United Republic of**  \n*Code : TZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ua",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ua.svg"
+      },
+      "back": {
+        "text": "**Ukraine**  \n*Code : UA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ug",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ug.svg"
+      },
+      "back": {
+        "text": "**Uganda**  \n*Code : UG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_um",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/um.svg"
+      },
+      "back": {
+        "text": "**US Minor Outlying Islands**  \n*Code : UM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_us",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/us.svg"
+      },
+      "back": {
+        "text": "**United States**  \n*Code : US*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_uy",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/uy.svg"
+      },
+      "back": {
+        "text": "**Uruguay**  \n*Code : UY*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_uz",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/uz.svg"
+      },
+      "back": {
+        "text": "**Uzbekistan**  \n*Code : UZ*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_va",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/va.svg"
+      },
+      "back": {
+        "text": "**Holy See (Vatican City State)**  \n*Code : VA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_vc",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/vc.svg"
+      },
+      "back": {
+        "text": "**Saint Vincent and the Grenadines**  \n*Code : VC*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ve",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ve.svg"
+      },
+      "back": {
+        "text": "**Venezuela, Bolivarian Republic of**  \n*Code : VE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_vg",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/vg.svg"
+      },
+      "back": {
+        "text": "**Virgin Islands, British**  \n*Code : VG*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_vi",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/vi.svg"
+      },
+      "back": {
+        "text": "**Virgin Islands, U.S.**  \n*Code : VI*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_vn",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/vn.svg"
+      },
+      "back": {
+        "text": "**Vietnam**  \n*Code : VN*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_vu",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/vu.svg"
+      },
+      "back": {
+        "text": "**Vanuatu**  \n*Code : VU*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_wf",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/wf.svg"
+      },
+      "back": {
+        "text": "**Wallis and Futuna Islands**  \n*Code : WF*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ws",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ws.svg"
+      },
+      "back": {
+        "text": "**Samoa**  \n*Code : WS*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_xk",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/xk.svg"
+      },
+      "back": {
+        "text": "**Kosovo**  \n*Code : XK*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_ye",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/ye.svg"
+      },
+      "back": {
+        "text": "**Yemen**  \n*Code : YE*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_yt",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/yt.svg"
+      },
+      "back": {
+        "text": "**Mayotte**  \n*Code : YT*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_za",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/za.svg"
+      },
+      "back": {
+        "text": "**South Africa**  \n*Code : ZA*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_zm",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/zm.svg"
+      },
+      "back": {
+        "text": "**Zambia**  \n*Code : ZM*",
+        "image": ""
+      }
+    },
+    {
+      "id": "flag_zw",
+      "tags": [
+        "drapeaux"
+      ],
+      "front": {
+        "text": "Quel est ce pays / territoire ?",
+        "image": "assets/flags-of-the-world/zw.svg"
+      },
+      "back": {
+        "text": "**Zimbabwe**  \n*Code : ZW*",
+        "image": ""
+      }
+    }
+  ]
+}
