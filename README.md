@@ -13,7 +13,7 @@ Outil de révision par flashcards, en une seule page HTML, hébergé sur GitHub 
 ## Structure du dépôt
 
 ```
-flashcards.html          ← l'application (lecteur + gestionnaire)
+index.html                ← l'application (lecteur + gestionnaire)
 collections/
   index.json              ← liste des collections disponibles pour le lecteur
   <id-collection>.json     ← une collection = un fichier
@@ -53,7 +53,7 @@ Seul un texte ou une image par face est requis ; le reste des champs peut rester
 
 ## Workflow
 
-1. Ouvrir `flashcards.html` (en local ou via GitHub Pages) → onglet **Gérer**.
+1. Ouvrir `index.html` (en local ou via GitHub Pages) → onglet **Gérer**.
 2. Créer ou éditer une collection, exporter son JSON.
 3. Déposer le fichier dans `collections/`, les images dans `assets/<id>/`.
 4. Mettre à jour `collections/index.json` (onglet **Gérer → Index**) pour la rendre disponible dans le lecteur.
