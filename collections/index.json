@@ -1,5 +1,6 @@
 {
   "collections": [
-    { "id": "exemple-modele", "name": "Exemple — modèle de collection", "file": "collections/exemple-modele.json" }
+    { "id": "exemple-modele", "name": "Exemple — modèle de collection", "file": "collections/exemple-modele.json" },
+    { "id": "flags-of-the-world", "name": "Flags of the world", "file": "collections/flags-of-the-world.json" }
   ]
 }
