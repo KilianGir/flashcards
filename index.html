@@ -76,9 +76,9 @@
   .progress-track{width:100%;max-width:560px;height:5px;background:var(--surface-2);border-radius:99px;overflow:hidden;}
   .progress-fill{height:100%;background:var(--gradient);width:0%;transition:width .25s;}
   .scene{perspective:1400px;width:100%;max-width:560px;}
-  .card3d{position:relative;width:100%;min-height:320px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);cursor:pointer;}
+  .card3d{position:relative;width:100%;min-height:220px;height:220px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1),height .25s ease;cursor:pointer;}
   .card3d.flipped{transform:rotateY(180deg);}
-  .face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--radius);border:1px solid var(--line);background:var(--surface);padding:28px;display:flex;flex-direction:column;overflow:auto;}
+  .face{position:absolute;top:0;left:0;right:0;backface-visibility:hidden;border-radius:var(--radius);border:1px solid var(--line);background:var(--surface);padding:28px;display:flex;flex-direction:column;overflow:visible;}
   .face .corner{position:absolute;top:0;right:0;font-size:.68rem;font-weight:700;letter-spacing:.08em;padding:5px 12px;border-radius:0 var(--radius) 0 var(--radius-sm);color:#fff;}
   .face.front .corner{background:var(--rose);}
   .face.back{transform:rotateY(180deg);}
@@ -139,13 +139,13 @@
         <div class="row" style="margin-bottom:12px;">
           <button class="btn btn-sm" id="btn-load-index">Charger collections/index.json</button>
           <label class="btn btn-sm" style="margin:0;">
-            Importer un index manuellement
-            <input type="file" id="input-index-file" accept="application/json" style="display:none;">
-          </label>
-          <label class="btn btn-sm" style="margin:0;">
             Ajouter des fichiers de collection
             <input type="file" id="input-collection-files" accept="application/json" multiple style="display:none;">
           </label>
+        </div>
+        <div class="row" style="margin-bottom:12px;">
+          <button class="btn btn-sm" id="btn-select-all">Tout sélectionner</button>
+          <button class="btn btn-sm" id="btn-select-none">Tout désélectionner</button>
         </div>
         <div id="collections-list"></div>
         <p class="small" id="collections-empty">Aucune collection chargée pour l'instant.</p>
@@ -413,6 +413,9 @@ function renderCollectionsList(){
   renderTagsFilter();
 }
 
+$('#btn-select-all').onclick = ()=>{ $$('#collections-list input[type=checkbox]').forEach(i=>i.checked=true); };
+$('#btn-select-none').onclick = ()=>{ $$('#collections-list input[type=checkbox]').forEach(i=>i.checked=false); };
+
 function renderTagsFilter(){
   const wrap = $('#tags-filter');
   const allTags = new Set();
@@ -442,18 +445,9 @@ $('#btn-load-index').onclick = async ()=>{
     }
     renderCollectionsList();
   }catch(e){
-    alert("Impossible de charger collections/index.json automatiquement (normal en local sans serveur, ou si le fichier n'existe pas encore). Utilise les boutons d'import manuel.");
+    alert("Impossible de charger collections/index.json automatiquement (normal en local sans serveur, ou si le fichier n'existe pas encore). Utilise \"Ajouter des fichiers de collection\".");
   }
 };
-
-$('#input-index-file').addEventListener('change', async (e)=>{
-  const file = e.target.files[0]; if(!file) return;
-  try{
-    const idx = await readFileAsJSON(file);
-    alert('Index importé : '+(idx.collections||[]).length+' collection(s) listée(s). Ajoute maintenant les fichiers de collection correspondants via "Ajouter des fichiers de collection".');
-  }catch(err){ alert('Fichier JSON invalide.'); }
-  e.target.value='';
-});
 
 $('#input-collection-files').addEventListener('change', async (e)=>{
   for(const file of e.target.files){
@@ -528,7 +522,21 @@ function showCard(){
   });
   $('#session-counter').textContent = `${sessionIndex+1} / ${sessionQueue.length}`;
   $('#progress-fill').style.width = ((sessionIndex)/sessionQueue.length*100)+'%';
+  resizeCard();
+  $$('#card3d img').forEach(img=>{
+    if(img.complete) resizeCard();
+    else { img.addEventListener('load', resizeCard); img.addEventListener('error', resizeCard); }
+  });
 }
+
+function resizeCard(){
+  const card3d = $('#card3d');
+  const front = card3d.querySelector('.face.front');
+  const back = card3d.querySelector('.face.back');
+  const h = Math.max(front.offsetHeight, back.offsetHeight, 220);
+  card3d.style.height = h+'px';
+}
+window.addEventListener('resize', ()=>{ if(!$('#session-panel').hidden) resizeCard(); });
 
 $('#card3d').addEventListener('click', flipCard);
 function flipCard(){
