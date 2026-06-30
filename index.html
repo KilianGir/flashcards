@@ -431,19 +431,23 @@ function renderTagsFilter(){
   });
 }
 
+async function loadIndexCollections(){
+  const res = await fetch('collections/index.json',{cache:'no-store'});
+  if(!res.ok) throw new Error('not found');
+  const idx = await res.json();
+  for(const entry of (idx.collections||[])){
+    const r2 = await fetch(entry.file,{cache:'no-store'});
+    const coll = await r2.json();
+    coll.id = coll.id || entry.id;
+    coll.name = coll.name || entry.name;
+    loadedCollections.push(coll);
+  }
+  renderCollectionsList();
+}
+
 $('#btn-load-index').onclick = async ()=>{
   try{
-    const res = await fetch('collections/index.json',{cache:'no-store'});
-    if(!res.ok) throw new Error('not found');
-    const idx = await res.json();
-    for(const entry of (idx.collections||[])){
-      const r2 = await fetch(entry.file,{cache:'no-store'});
-      const coll = await r2.json();
-      coll.id = coll.id || entry.id;
-      coll.name = coll.name || entry.name;
-      loadedCollections.push(coll);
-    }
-    renderCollectionsList();
+    await loadIndexCollections();
   }catch(e){
     alert("Impossible de charger collections/index.json automatiquement (normal en local sans serveur, ou si le fichier n'existe pas encore). Utilise \"Ajouter des fichiers de collection\".");
   }
@@ -728,6 +732,7 @@ $('#btn-export-index').onclick = ()=>{
 /* init */
 renderCardList();
 livePreview();
+loadIndexCollections().catch(()=>{ /* pas de serveur/index disponible : on laisse l'utilisateur charger manuellement */ });
 </script>
 </body>
 </html>
