@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+<style>
+  :root{
+    --bg:#14161b;
+    --surface:#1c1f26;
+    --surface-2:#262a33;
+    --line:#333944;
+    --text:#f0ede6;
+    --text-dim:#9aa0ac;
+    --rose:#c52f64;
+    --blue:#30a8d5;
+    --gradient:linear-gradient(135deg,var(--rose),var(--blue));
+    --radius:16px;
+    --radius-sm:9px;
+    --font-display:'Fraunces',serif;
+    --font-body:'Inter',sans-serif;
+    --font-mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font-body);min-height:100vh;}
+  @media (prefers-reduced-motion: reduce){ *{animation-duration:.001ms !important; transition-duration:.001ms !important;} }
+
+  .topbar{display:flex;align-items:center;justify-content:space-between;padding:18px 28px;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(20,22,27,.92);backdrop-filter:blur(8px);z-index:10;}
+  .brand{font-family:var(--font-display);font-weight:700;font-size:1.4rem;display:flex;align-items:center;gap:10px;}
+  .brand .dot{width:10px;height:10px;border-radius:50%;background:var(--gradient);}
+  nav.tabs{display:flex;gap:6px;background:var(--surface);padding:4px;border-radius:999px;border:1px solid var(--line);}
+  nav.tabs button{border:none;background:transparent;color:var(--text-dim);font-family:var(--font-body);font-weight:600;font-size:.9rem;padding:8px 18px;border-radius:999px;cursor:pointer;transition:color .15s,background .15s;}
+  nav.tabs button.active{background:var(--gradient);color:#fff;}
+  nav.tabs button:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+
+  main{max-width:980px;margin:0 auto;padding:32px 24px 80px;}
+  section[hidden]{display:none !important;}
+
+  h1,h2,h3{font-family:var(--font-display);font-weight:600;margin:0 0 4px;}
+  .lead{color:var(--text-dim);font-size:.95rem;margin:0 0 24px;}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:20px;}
+  .panel h3{font-size:1.05rem;}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  label.field{display:flex;flex-direction:column;gap:6px;font-size:.82rem;color:var(--text-dim);flex:1;min-width:160px;}
+  input[type=text],input[type=number],textarea,select{
+    background:var(--surface-2);border:1px solid var(--line);color:var(--text);border-radius:var(--radius-sm);
+    padding:9px 11px;font-family:var(--font-body);font-size:.92rem;resize:vertical;
+  }
+  textarea{min-height:74px;font-family:var(--font-mono);font-size:.85rem;}
+  input:focus-visible,textarea:focus-visible,select:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+
+  button{cursor:pointer;font-family:var(--font-body);}
+  .btn{background:var(--surface-2);border:1px solid var(--line);color:var(--text);padding:9px 16px;border-radius:var(--radius-sm);font-weight:600;font-size:.85rem;transition:border-color .15s;}
+  .btn:hover{border-color:var(--blue);}
+  .btn-primary{background:var(--gradient);border:none;color:#fff;}
+  .btn-primary:hover{filter:brightness(1.08);}
+  .btn-danger{border-color:var(--rose);color:var(--rose);background:transparent;}
+  .btn-sm{padding:5px 11px;font-size:.78rem;}
+
+  .chip{display:inline-flex;align-items:center;gap:6px;padding:6px 13px;border-radius:999px;border:1px solid var(--line);background:var(--surface-2);font-size:.8rem;font-weight:500;cursor:pointer;color:var(--text-dim);}
+  .chip.active{border-color:var(--blue);color:var(--text);background:rgba(48,168,213,.12);}
+  .collection-row{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:var(--radius-sm);border:1px solid var(--line);background:var(--surface-2);margin-bottom:8px;}
+  .collection-row input{accent-color:var(--blue);}
+  .collection-row .meta{flex:1;}
+  .collection-row .count{font-size:.78rem;color:var(--text-dim);}
+
+  /* Card stage */
+  .stage{display:flex;flex-direction:column;align-items:center;gap:22px;}
+  .progress-track{width:100%;max-width:560px;height:5px;background:var(--surface-2);border-radius:99px;overflow:hidden;}
+  .progress-fill{height:100%;background:var(--gradient);width:0%;transition:width .25s;}
+  .scene{perspective:1400px;width:100%;max-width:560px;}
+  .card3d{position:relative;width:100%;min-height:320px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);cursor:pointer;}
+  .card3d.flipped{transform:rotateY(180deg);}
+  .face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--radius);border:1px solid var(--line);background:var(--surface);padding:28px;display:flex;flex-direction:column;overflow:auto;}
+  .face .corner{position:absolute;top:0;right:0;font-size:.68rem;font-weight:700;letter-spacing:.08em;padding:5px 12px;border-radius:0 var(--radius) 0 var(--radius-sm);color:#fff;}
+  .face.front .corner{background:var(--rose);}
+  .face.back{transform:rotateY(180deg);}
+  .face.back .corner{background:var(--blue);}
+  .face-content{margin-top:18px;flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:14px;font-size:1.08rem;line-height:1.5;}
+  .face-content img{max-width:100%;max-height:240px;border-radius:var(--radius-sm);}
+  .hint{font-size:.78rem;color:var(--text-dim);text-align:center;}
+  .tags-row{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:6px;}
+  .tag-pill{font-size:.7rem;padding:3px 9px;border-radius:99px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--line);}
+
+  .controls{display:flex;gap:10px;align-items:center;}
+  .grade-row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;}
+  .grade-btn{padding:10px 16px;border-radius:var(--radius-sm);border:1px solid var(--line);background:var(--surface-2);font-weight:700;font-size:.82rem;color:var(--text);}
+  .grade-btn[data-q="0"]{border-color:var(--rose);}
+  .grade-btn[data-q="3"]{border-color:#d99a3a;}
+  .grade-btn[data-q="4"]{border-color:var(--blue);}
+  .grade-btn[data-q="5"]{border-color:#3ac98a;}
+
+  /* manager */
+  .subtabs{display:flex;gap:8px;margin-bottom:18px;}
+  .subtabs button{background:transparent;border:none;border-bottom:2px solid transparent;color:var(--text-dim);font-weight:600;padding:6px 4px;font-size:.92rem;}
+  .subtabs button.active{color:var(--text);border-color:var(--blue);}
+  .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media (max-width:760px){.grid-2{grid-template-columns:1fr;}}
+  .card-list-item{display:flex;align-items:flex-start;gap:10px;padding:12px;border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface-2);margin-bottom:8px;}
+  .card-list-item .txt{flex:1;font-size:.85rem;color:var(--text-dim);}
+  .card-list-item .txt b{color:var(--text);display:block;font-size:.88rem;margin-bottom:2px;}
+  .preview-box{border:1px dashed var(--line);border-radius:var(--radius-sm);padding:16px;min-height:90px;font-size:.92rem;}
+  .index-row{display:grid;grid-template-columns:1fr 1fr 1.4fr auto;gap:8px;margin-bottom:8px;align-items:center;}
+  details.help{margin-top:8px;}
+  details.help summary{cursor:pointer;font-weight:600;color:var(--text-dim);font-size:.85rem;}
+  details.help pre{background:var(--surface-2);padding:12px;border-radius:var(--radius-sm);font-size:.78rem;overflow:auto;color:var(--text-dim);}
+  .empty-state{text-align:center;padding:40px 20px;color:var(--text-dim);}
+  .small{font-size:.78rem;color:var(--text-dim);}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand"><span class="dot"></span>Flashcards</div>
+  <nav class="tabs">
+    <button id="tab-reviser" class="active">Réviser</button>
+    <button id="tab-gerer">Gérer</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ===================== REVISER ===================== -->
+  <section id="view-reviser">
+
+    <div id="setup-panel">
+      <h1>Réviser</h1>
+      <p class="lead">Choisis une ou plusieurs collections, un mode de session, puis lance la révision.</p>
+
+      <div class="panel">
+        <h3>Collections</h3>
+        <div class="row" style="margin-bottom:12px;">
+          <button class="btn btn-sm" id="btn-load-index">Charger collections/index.json</button>
+          <label class="btn btn-sm" style="margin:0;">
+            Importer un index manuellement
+            <input type="file" id="input-index-file" accept="application/json" style="display:none;">
+          </label>
+          <label class="btn btn-sm" style="margin:0;">
+            Ajouter des fichiers de collection
+            <input type="file" id="input-collection-files" accept="application/json" multiple style="display:none;">
+          </label>
+        </div>
+        <div id="collections-list"></div>
+        <p class="small" id="collections-empty">Aucune collection chargée pour l'instant.</p>
+      </div>
+
+      <div class="panel">
+        <h3>Filtrer par tag</h3>
+        <div class="row" id="tags-filter"><span class="small">Charge une collection pour voir les tags disponibles.</span></div>
+      </div>
+
+      <div class="panel">
+        <h3>Mode de session</h3>
+        <div class="row">
+          <label class="chip active" data-mode="random"><input type="radio" name="mode" value="random" checked style="display:none;">Aléatoire simple</label>
+          <label class="chip" data-mode="sr"><input type="radio" name="mode" value="sr" style="display:none;">Répétition espacée</label>
+        </div>
+        <p class="small" style="margin-top:10px;">En répétition espacée, les cartes notées « facile » reviennent plus tard, celles notées « à revoir » reviennent vite. Le mode aléatoire simple mélange tout sans planification.</p>
+      </div>
+
+      <button class="btn btn-primary" id="btn-start-session" style="font-size:.95rem;padding:12px 22px;">Lancer la session</button>
+    </div>
+
+    <div id="session-panel" hidden>
+      <div class="stage">
+        <div class="row" style="width:100%;max-width:560px;justify-content:space-between;">
+          <button class="btn btn-sm" id="btn-quit-session">← Quitter</button>
+          <span class="small" id="session-counter"></span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+
+        <div class="scene">
+          <div class="card3d" id="card3d">
+            <div class="face front">
+              <span class="corner">RECTO</span>
+              <div class="face-content" id="front-content"></div>
+            </div>
+            <div class="face back">
+              <span class="corner">VERSO</span>
+              <div class="face-content" id="back-content"></div>
+            </div>
+          </div>
+        </div>
+        <p class="hint">Clique sur la carte (ou Espace) pour révéler la réponse · ← → pour naviguer</p>
+
+        <div id="grade-area" class="grade-row" hidden>
+          <button class="grade-btn" data-q="0">À revoir</button>
+          <button class="grade-btn" data-q="3">Difficile</button>
+          <button class="grade-btn" data-q="4">Correct</button>
+          <button class="grade-btn" data-q="5">Facile</button>
+        </div>
+        <div class="controls" id="nav-area">
+          <button class="btn" id="btn-prev">← Précédente</button>
+          <button class="btn" id="btn-next">Suivante →</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="session-done" hidden class="empty-state panel">
+      <h3>Session terminée 🎉</h3>
+      <p class="small" id="session-summary"></p>
+      <button class="btn btn-primary" id="btn-restart">Revenir au choix des collections</button>
+    </div>
+  </section>
+
+  <!-- ===================== GERER ===================== -->
+  <section id="view-gerer" hidden>
+    <h1>Gérer les collections</h1>
+    <p class="lead">Construis une collection, exporte le JSON, puis dépose le fichier (et ses images) dans ton dépôt GitHub.</p>
+
+    <div class="subtabs">
+      <button id="subtab-cartes" class="active">Cartes</button>
+      <button id="subtab-index">Index des collections</button>
+    </div>
+
+    <div id="gerer-cartes">
+      <div class="panel">
+        <h3>Collection</h3>
+        <div class="row">
+          <label class="field">Identifiant (slug, ex: maths-analyse)
+            <input type="text" id="coll-id" placeholder="maths-analyse">
+          </label>
+          <label class="field">Nom affiché
+            <input type="text" id="coll-name" placeholder="Maths — Analyse">
+          </label>
+        </div>
+        <div class="row" style="margin-top:12px;">
+          <label class="btn btn-sm" style="margin:0;">
+            Importer une collection existante
+            <input type="file" id="input-import-collection" accept="application/json" style="display:none;">
+          </label>
+          <button class="btn btn-sm btn-primary" id="btn-export-collection">Exporter le JSON de la collection</button>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="panel">
+          <h3 id="card-form-title">Nouvelle carte</h3>
+          <label class="field" style="margin-bottom:10px;">Recto — texte (Markdown + LaTeX entre $...$)
+            <textarea id="front-text" placeholder="Quelle est la formule de l'aire d'un cercle ? $A = ?$"></textarea>
+          </label>
+          <label class="field" style="margin-bottom:10px;">Recto — image (chemin relatif, ex: assets/maths-analyse/fig1.png)
+            <input type="text" id="front-image" placeholder="assets/ma-collection/image.png">
+          </label>
+          <label class="field" style="margin-bottom:10px;">Verso — texte (Markdown + LaTeX)
+            <textarea id="back-text" placeholder="$A = \pi r^2$"></textarea>
+          </label>
+          <label class="field" style="margin-bottom:10px;">Verso — image (chemin relatif)
+            <input type="text" id="back-image" placeholder="assets/ma-collection/image-reponse.png">
+          </label>
+          <label class="field" style="margin-bottom:14px;">Tags (séparés par des virgules)
+            <input type="text" id="card-tags" placeholder="géométrie, formules">
+          </label>
+          <div class="row">
+            <button class="btn btn-primary" id="btn-save-card">Ajouter la carte</button>
+            <button class="btn" id="btn-cancel-edit" hidden>Annuler l'édition</button>
+          </div>
+          <details class="help">
+            <summary>Aide : chemins d'images et LaTeX</summary>
+            <pre>Place tes images dans un dossier "assets/&lt;id-collection&gt;/"
+à côté du fichier HTML, puis indique le chemin relatif,
+ex: assets/maths-analyse/fig1.png
+
+LaTeX inline:  $E = mc^2$
+LaTeX bloc:    $$\int_0^1 x^2\,dx = \frac{1}{3}$$</pre>
+          </details>
+        </div>
+
+        <div class="panel">
+          <h3>Aperçu</h3>
+          <p class="small">Recto</p>
+          <div class="preview-box" id="preview-front"></div>
+          <p class="small" style="margin-top:14px;">Verso</p>
+          <div class="preview-box" id="preview-back"></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h3>Cartes de la collection (<span id="card-count">0</span>)</h3>
+        <div id="card-list"></div>
+        <p class="small" id="card-list-empty">Aucune carte pour l'instant.</p>
+      </div>
+    </div>
+
+    <div id="gerer-index" hidden>
+      <div class="panel">
+        <h3>collections/index.json</h3>
+        <p class="small">Liste les collections disponibles pour le lecteur. Importe ton index existant, ajoute une ligne par nouvelle collection, puis exporte.</p>
+        <div class="row" style="margin:12px 0;">
+          <label class="btn btn-sm" style="margin:0;">
+            Importer un index existant
+            <input type="file" id="input-import-index" accept="application/json" style="display:none;">
+          </label>
+          <button class="btn btn-sm" id="btn-add-index-row">+ Ajouter une ligne</button>
+          <button class="btn btn-sm btn-primary" id="btn-export-index">Exporter index.json</button>
+        </div>
+        <div id="index-rows"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+/* ============== Helpers ============== */
+const $ = (sel,root=document)=>root.querySelector(sel);
+const $$ = (sel,root=document)=>[...root.querySelectorAll(sel)];
+
+function uid(prefix='c'){ return prefix+'_'+Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
+
+function renderRich(container, text, imagePath){
+  container.innerHTML='';
+  if(text && text.trim()){
+    const md = document.createElement('div');
+    const rawHtml = marked.parse(text);
+    md.innerHTML = DOMPurify.sanitize(rawHtml);
+    container.appendChild(md);
+  }
+  if(imagePath && imagePath.trim()){
+    const img = document.createElement('img');
+    img.src = imagePath.trim();
+    img.alt = '';
+    img.onerror = ()=>{ img.replaceWith(Object.assign(document.createElement('p'),{className:'small',textContent:'⚠ image introuvable : '+imagePath}));};
+    container.appendChild(img);
+  }
+  if(window.renderMathInElement){
+    renderMathInElement(container,{delimiters:[
+      {left:'$$',right:'$$',display:true},
+      {left:'$',right:'$',display:false}
+    ]});
+  }
+}
+
+function downloadJSON(obj, filename){
+  const blob = new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function readFileAsJSON(file){
+  return new Promise((resolve,reject)=>{
+    const r = new FileReader();
+    r.onload = ()=>{ try{ resolve(JSON.parse(r.result)); }catch(e){ reject(e); } };
+    r.onerror = reject;
+    r.readAsText(file);
+  });
+}
+
+/* ============== Top-level tabs ============== */
+const tabReviser = $('#tab-reviser'), tabGerer = $('#tab-gerer');
+const viewReviser = $('#view-reviser'), viewGerer = $('#view-gerer');
+tabReviser.onclick = ()=>{ tabReviser.classList.add('active'); tabGerer.classList.remove('active'); viewReviser.hidden=false; viewGerer.hidden=true; };
+tabGerer.onclick = ()=>{ tabGerer.classList.add('active'); tabReviser.classList.remove('active'); viewGerer.hidden=false; viewReviser.hidden=true; };
+
+const subtabCartes = $('#subtab-cartes'), subtabIndex = $('#subtab-index');
+const gererCartes = $('#gerer-cartes'), gererIndex = $('#gerer-index');
+subtabCartes.onclick = ()=>{ subtabCartes.classList.add('active'); subtabIndex.classList.remove('active'); gererCartes.hidden=false; gererIndex.hidden=true; };
+subtabIndex.onclick = ()=>{ subtabIndex.classList.add('active'); subtabCartes.classList.remove('active'); gererIndex.hidden=false; gererCartes.hidden=true; };
+
+/* ============== REVISER : state ============== */
+let loadedCollections = []; // {id,name,cards:[...]}
+let activeTags = new Set();
+let sessionMode = 'random';
+let sessionQueue = [];
+let sessionIndex = 0;
+let sessionFlipped = false;
+let sessionStats = {total:0, graded:0};
+
+const SR_KEY = 'flashcards-sr-state-v1';
+function loadSRState(){ try{ return JSON.parse(localStorage.getItem(SR_KEY))||{}; }catch(e){ return {}; } }
+function saveSRState(state){ localStorage.setItem(SR_KEY, JSON.stringify(state)); }
+
+function sm2(card, quality, srState){
+  const key = card._collectionId+':'+card.id;
+  let s = srState[key] || {ef:2.5, interval:0, repetitions:0, due: Date.now()};
+  if(quality < 3){
+    s.repetitions = 0;
+    s.interval = 1;
+  } else {
+    s.repetitions += 1;
+    if(s.repetitions === 1) s.interval = 1;
+    else if(s.repetitions === 2) s.interval = 6;
+    else s.interval = Math.round(s.interval * s.ef);
+    s.ef = Math.max(1.3, s.ef + (0.1 - (5-quality)*(0.08+(5-quality)*0.02)));
+  }
+  s.due = Date.now() + s.interval*24*60*60*1000;
+  srState[key] = s;
+  return s;
+}
+
+function renderCollectionsList(){
+  const wrap = $('#collections-list');
+  const empty = $('#collections-empty');
+  wrap.innerHTML='';
+  empty.hidden = loadedCollections.length>0;
+  loadedCollections.forEach(c=>{
+    const row = document.createElement('div');
+    row.className='collection-row';
+    row.innerHTML = `<input type="checkbox" checked data-cid="${c.id}">
+      <div class="meta"><div>${c.name||c.id}</div><div class="count">${c.cards.length} carte(s)</div></div>`;
+    wrap.appendChild(row);
+  });
+  renderTagsFilter();
+}
+
+function renderTagsFilter(){
+  const wrap = $('#tags-filter');
+  const allTags = new Set();
+  loadedCollections.forEach(c=>c.cards.forEach(card=>(card.tags||[]).forEach(t=>allTags.add(t))));
+  wrap.innerHTML='';
+  if(allTags.size===0){ wrap.innerHTML='<span class="small">Aucun tag dans les collections chargées.</span>'; return; }
+  allTags.forEach(t=>{
+    const chip = document.createElement('span');
+    chip.className='chip'+(activeTags.has(t)?' active':'');
+    chip.textContent = t;
+    chip.onclick = ()=>{ activeTags.has(t)?activeTags.delete(t):activeTags.add(t); renderTagsFilter(); };
+    wrap.appendChild(chip);
+  });
+}
+
+$('#btn-load-index').onclick = async ()=>{
+  try{
+    const res = await fetch('collections/index.json',{cache:'no-store'});
+    if(!res.ok) throw new Error('not found');
+    const idx = await res.json();
+    for(const entry of (idx.collections||[])){
+      const r2 = await fetch(entry.file,{cache:'no-store'});
+      const coll = await r2.json();
+      coll.id = coll.id || entry.id;
+      coll.name = coll.name || entry.name;
+      loadedCollections.push(coll);
+    }
+    renderCollectionsList();
+  }catch(e){
+    alert("Impossible de charger collections/index.json automatiquement (normal en local sans serveur, ou si le fichier n'existe pas encore). Utilise les boutons d'import manuel.");
+  }
+};
+
+$('#input-index-file').addEventListener('change', async (e)=>{
+  const file = e.target.files[0]; if(!file) return;
+  try{
+    const idx = await readFileAsJSON(file);
+    alert('Index importé : '+(idx.collections||[]).length+' collection(s) listée(s). Ajoute maintenant les fichiers de collection correspondants via "Ajouter des fichiers de collection".');
+  }catch(err){ alert('Fichier JSON invalide.'); }
+  e.target.value='';
+});
+
+$('#input-collection-files').addEventListener('change', async (e)=>{
+  for(const file of e.target.files){
+    try{
+      const coll = await readFileAsJSON(file);
+      if(!coll.id) coll.id = file.name.replace(/\.json$/,'');
+      loadedCollections.push(coll);
+    }catch(err){ alert('Erreur de lecture pour '+file.name); }
+  }
+  renderCollectionsList();
+  e.target.value='';
+});
+
+$$('.chip[data-mode]').forEach(chip=>{
+  chip.addEventListener('click', ()=>{
+    $$('.chip[data-mode]').forEach(c=>c.classList.remove('active'));
+    chip.classList.add('active');
+    sessionMode = chip.dataset.mode;
+  });
+});
+
+$('#btn-start-session').onclick = ()=>{
+  const checked = $$('#collections-list input[type=checkbox]:checked').map(i=>i.dataset.cid);
+  let cards = [];
+  loadedCollections.filter(c=>checked.includes(c.id)).forEach(c=>{
+    c.cards.forEach(card=>{
+      const tagged = !activeTags.size || (card.tags||[]).some(t=>activeTags.has(t));
+      if(tagged) cards.push({...card, _collectionId:c.id});
+    });
+  });
+  if(cards.length===0){ alert('Aucune carte ne correspond à la sélection.'); return; }
+
+  if(sessionMode==='sr'){
+    const srState = loadSRState();
+    const now = Date.now();
+    let due = cards.filter(c=>{
+      const s = srState[c._collectionId+':'+c.id];
+      return !s || s.due<=now;
+    });
+    if(due.length===0) due = cards; // rien dû : on révise quand même tout
+    cards = due;
+  }
+
+  sessionQueue = shuffle(cards);
+  sessionIndex = 0;
+  sessionStats = {total: sessionQueue.length, graded:0};
+  $('#setup-panel').hidden = true;
+  $('#session-done').hidden = true;
+  $('#session-panel').hidden = false;
+  $('#grade-area').hidden = sessionMode!=='sr';
+  $('#nav-area').hidden = sessionMode==='sr';
+  showCard();
+};
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  return a;
+}
+
+function showCard(){
+  const card = sessionQueue[sessionIndex];
+  sessionFlipped = false;
+  $('#card3d').classList.remove('flipped');
+  renderRich($('#front-content'), card.front?.text, card.front?.image);
+  renderRich($('#back-content'), card.back?.text, card.back?.image);
+  [$('#front-content'),$('#back-content')].forEach(c=>{
+    const tagsRow = document.createElement('div');
+    tagsRow.className='tags-row';
+    (card.tags||[]).forEach(t=>{ const p=document.createElement('span'); p.className='tag-pill'; p.textContent=t; tagsRow.appendChild(p); });
+    c.appendChild(tagsRow);
+  });
+  $('#session-counter').textContent = `${sessionIndex+1} / ${sessionQueue.length}`;
+  $('#progress-fill').style.width = ((sessionIndex)/sessionQueue.length*100)+'%';
+}
+
+$('#card3d').addEventListener('click', flipCard);
+function flipCard(){
+  sessionFlipped = !sessionFlipped;
+  $('#card3d').classList.toggle('flipped', sessionFlipped);
+}
+
+document.addEventListener('keydown', (e)=>{
+  if($('#session-panel').hidden) return;
+  if(e.code==='Space'){ e.preventDefault(); flipCard(); }
+  if(e.code==='ArrowRight' && sessionMode==='random') goNext();
+  if(e.code==='ArrowLeft' && sessionMode==='random') goPrev();
+});
+
+$('#btn-next').onclick = goNext;
+$('#btn-prev').onclick = goPrev;
+function goNext(){ if(sessionIndex < sessionQueue.length-1){ sessionIndex++; showCard(); } else finishSession(); }
+function goPrev(){ if(sessionIndex>0){ sessionIndex--; showCard(); } }
+
+$$('.grade-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    if(!sessionFlipped){ flipCard(); return; }
+    const q = parseInt(btn.dataset.q,10);
+    const card = sessionQueue[sessionIndex];
+    const srState = loadSRState();
+    sm2(card, q, srState);
+    saveSRState(srState);
+    sessionStats.graded++;
+    if(sessionIndex < sessionQueue.length-1){ sessionIndex++; showCard(); }
+    else finishSession();
+  });
+});
+
+$('#btn-quit-session').onclick = ()=>{ $('#session-panel').hidden=true; $('#setup-panel').hidden=false; };
+$('#btn-restart').onclick = ()=>{ $('#session-done').hidden=true; $('#setup-panel').hidden=false; };
+
+function finishSession(){
+  $('#progress-fill').style.width='100%';
+  $('#session-panel').hidden = true;
+  $('#session-done').hidden = false;
+  $('#session-summary').textContent = sessionMode==='sr'
+    ? `${sessionStats.graded} carte(s) notée(s) sur ${sessionStats.total}.`
+    : `${sessionStats.total} carte(s) parcourue(s).`;
+}
+
+/* ============== GERER : cartes ============== */
+let currentCollection = { id:'', name:'', cards:[] };
+let editingCardId = null;
+
+function syncCollMeta(){
+  currentCollection.id = $('#coll-id').value.trim();
+  currentCollection.name = $('#coll-name').value.trim();
+}
+$('#coll-id').addEventListener('input', syncCollMeta);
+$('#coll-name').addEventListener('input', syncCollMeta);
+
+function livePreview(){
+  renderRich($('#preview-front'), $('#front-text').value, $('#front-image').value);
+  renderRich($('#preview-back'), $('#back-text').value, $('#back-image').value);
+}
+['front-text','front-image','back-text','back-image'].forEach(id=>{
+  $('#'+id).addEventListener('input', livePreview);
+});
+
+$('#btn-save-card').onclick = ()=>{
+  const front = { text: $('#front-text').value, image: $('#front-image').value.trim() };
+  const back = { text: $('#back-text').value, image: $('#back-image').value.trim() };
+  const tags = $('#card-tags').value.split(',').map(t=>t.trim()).filter(Boolean);
+  if(!front.text && !front.image){ alert("Le recto a besoin d'au moins un texte ou une image."); return; }
+
+  if(editingCardId){
+    const card = currentCollection.cards.find(c=>c.id===editingCardId);
+    Object.assign(card, {front, back, tags});
+  } else {
+    currentCollection.cards.push({ id: uid(), front, back, tags });
+  }
+  resetCardForm();
+  renderCardList();
+};
+
+function resetCardForm(){
+  editingCardId = null;
+  $('#card-form-title').textContent = 'Nouvelle carte';
+  $('#btn-save-card').textContent = 'Ajouter la carte';
+  $('#btn-cancel-edit').hidden = true;
+  ['front-text','front-image','back-text','back-image','card-tags'].forEach(id=>$('#'+id).value='');
+  livePreview();
+}
+$('#btn-cancel-edit').onclick = resetCardForm;
+
+function renderCardList(){
+  const wrap = $('#card-list');
+  const empty = $('#card-list-empty');
+  wrap.innerHTML='';
+  $('#card-count').textContent = currentCollection.cards.length;
+  empty.hidden = currentCollection.cards.length>0;
+  currentCollection.cards.forEach(card=>{
+    const item = document.createElement('div');
+    item.className='card-list-item';
+    const frontPreview = (card.front?.text||'').slice(0,80) || (card.front?.image ? '[image]' : '(vide)');
+    item.innerHTML = `<div class="txt"><b>${frontPreview}</b>${(card.tags||[]).join(', ')}</div>
+      <button class="btn btn-sm" data-act="edit">Éditer</button>
+      <button class="btn btn-sm btn-danger" data-act="del">Supprimer</button>`;
+    item.querySelector('[data-act=edit]').onclick = ()=> editCard(card.id);
+    item.querySelector('[data-act=del]').onclick = ()=>{
+      if(confirm('Supprimer cette carte ?')){
+        currentCollection.cards = currentCollection.cards.filter(c=>c.id!==card.id);
+        renderCardList();
+      }
+    };
+    wrap.appendChild(item);
+  });
+}
+
+function editCard(id){
+  const card = currentCollection.cards.find(c=>c.id===id);
+  editingCardId = id;
+  $('#card-form-title').textContent = 'Éditer la carte';
+  $('#btn-save-card').textContent = 'Mettre à jour la carte';
+  $('#btn-cancel-edit').hidden = false;
+  $('#front-text').value = card.front?.text||'';
+  $('#front-image').value = card.front?.image||'';
+  $('#back-text').value = card.back?.text||'';
+  $('#back-image').value = card.back?.image||'';
+  $('#card-tags').value = (card.tags||[]).join(', ');
+  livePreview();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+$('#input-import-collection').addEventListener('change', async (e)=>{
+  const file = e.target.files[0]; if(!file) return;
+  try{
+    const coll = await readFileAsJSON(file);
+    currentCollection = { id: coll.id||'', name: coll.name||'', cards: coll.cards||[] };
+    $('#coll-id').value = currentCollection.id;
+    $('#coll-name').value = currentCollection.name;
+    renderCardList();
+  }catch(err){ alert('Fichier JSON invalide.'); }
+  e.target.value='';
+});
+
+$('#btn-export-collection').onclick = ()=>{
+  syncCollMeta();
+  if(!currentCollection.id){ alert("Indique un identifiant de collection avant d'exporter."); return; }
+  downloadJSON(currentCollection, currentCollection.id+'.json');
+};
+
+/* ============== GERER : index ============== */
+let indexRows = []; // {id,name,file}
+
+function renderIndexRows(){
+  const wrap = $('#index-rows');
+  wrap.innerHTML='';
+  indexRows.forEach((row,i)=>{
+    const el = document.createElement('div');
+    el.className='index-row';
+    el.innerHTML = `
+      <input type="text" placeholder="id" value="${row.id}" data-f="id">
+      <input type="text" placeholder="nom affiché" value="${row.name}" data-f="name">
+      <input type="text" placeholder="collections/mon-id.json" value="${row.file}" data-f="file">
+      <button class="btn btn-sm btn-danger">✕</button>`;
+    el.querySelectorAll('input').forEach(inp=>{
+      inp.addEventListener('input', ()=>{ indexRows[i][inp.dataset.f] = inp.value; });
+    });
+    el.querySelector('button').onclick = ()=>{ indexRows.splice(i,1); renderIndexRows(); };
+    wrap.appendChild(el);
+  });
+}
+
+$('#btn-add-index-row').onclick = ()=>{
+  indexRows.push({id:'', name:'', file:'collections/.json'});
+  renderIndexRows();
+};
+
+$('#input-import-index').addEventListener('change', async (e)=>{
+  const file = e.target.files[0]; if(!file) return;
+  try{
+    const idx = await readFileAsJSON(file);
+    indexRows = idx.collections||[];
+    renderIndexRows();
+  }catch(err){ alert('Fichier JSON invalide.'); }
+  e.target.value='';
+});
+
+$('#btn-export-index').onclick = ()=>{
+  downloadJSON({collections: indexRows}, 'index.json');
+};
+
+/* init */
+renderCardList();
+livePreview();
+</script>
+</body>
+</html>
