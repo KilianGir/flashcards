@@ -1,0 +1,1658 @@
+{
+  "id": "tableau-periodique",
+  "name": "Tableau périodique des éléments",
+  "cards": [
+    {
+      "id": "elem_001",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **1**, symbole **H** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Hydrogène**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_002",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **2**, symbole **He** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Hélium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_003",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **3**, symbole **Li** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lithium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_004",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **4**, symbole **Be** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Béryllium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_005",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **5**, symbole **B** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bore**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_006",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **6**, symbole **C** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Carbone**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_007",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **7**, symbole **N** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Azote**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_008",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **8**, symbole **O** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Oxygène**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_009",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **9**, symbole **F** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Fluor**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_010",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **10**, symbole **Ne** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Néon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_011",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **11**, symbole **Na** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sodium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_012",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **12**, symbole **Mg** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Magnésium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_013",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **13**, symbole **Al** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Aluminium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_014",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **14**, symbole **Si** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Silicium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_015",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **15**, symbole **P** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Phosphore**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_016",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **16**, symbole **S** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Soufre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_017",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **17**, symbole **Cl** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Chlore**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_018",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **18**, symbole **Ar** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Argon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_019",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **19**, symbole **K** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Potassium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_020",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **20**, symbole **Ca** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Calcium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_021",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **21**, symbole **Sc** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Scandium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_022",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **22**, symbole **Ti** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Titane**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_023",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **23**, symbole **V** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vanadium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_024",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **24**, symbole **Cr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Chrome**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_025",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **25**, symbole **Mn** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Manganèse**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_026",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **26**, symbole **Fe** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Fer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_027",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **27**, symbole **Co** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Cobalt**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_028",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **28**, symbole **Ni** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nickel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_029",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **29**, symbole **Cu** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Cuivre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_030",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **30**, symbole **Zn** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Zinc**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_031",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **31**, symbole **Ga** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Gallium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_032",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **32**, symbole **Ge** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Germanium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_033",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **33**, symbole **As** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Arsenic**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_034",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **34**, symbole **Se** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sélénium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_035",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **35**, symbole **Br** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brome**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_036",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **36**, symbole **Kr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Krypton**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_037",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **37**, symbole **Rb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rubidium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_038",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **38**, symbole **Sr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Strontium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_039",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **39**, symbole **Y** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Yttrium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_040",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **40**, symbole **Zr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Zirconium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_041",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **41**, symbole **Nb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Niobium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_042",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **42**, symbole **Mo** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Molybdène**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_043",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **43**, symbole **Tc** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Technétium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_044",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **44**, symbole **Ru** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ruthénium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_045",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **45**, symbole **Rh** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rhodium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_046",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **46**, symbole **Pd** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Palladium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_047",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **47**, symbole **Ag** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Argent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_048",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **48**, symbole **Cd** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Cadmium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_049",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **49**, symbole **In** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Indium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_050",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **50**, symbole **Sn** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Étain**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_051",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **51**, symbole **Sb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Antimoine**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_052",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **52**, symbole **Te** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tellure**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_053",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **53**, symbole **I** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Iode**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_054",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **54**, symbole **Xe** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Xénon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_055",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **55**, symbole **Cs** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Césium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_056",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **56**, symbole **Ba** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Baryum**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_057",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **57**, symbole **La** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lanthane**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_058",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **58**, symbole **Ce** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Cérium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_059",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **59**, symbole **Pr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Praséodyme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_060",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **60**, symbole **Nd** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Néodyme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_061",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **61**, symbole **Pm** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Prométhium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_062",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **62**, symbole **Sm** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Samarium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_063",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **63**, symbole **Eu** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Europium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_064",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **64**, symbole **Gd** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Gadolinium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_065",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **65**, symbole **Tb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Terbium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_066",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **66**, symbole **Dy** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dysprosium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_067",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **67**, symbole **Ho** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Holmium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_068",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **68**, symbole **Er** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Erbium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_069",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **69**, symbole **Tm** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Thulium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_070",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **70**, symbole **Yb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ytterbium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_071",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **71**, symbole **Lu** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lutécium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_072",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **72**, symbole **Hf** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Hafnium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_073",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **73**, symbole **Ta** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tantale**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_074",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **74**, symbole **W** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tungstène**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_075",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **75**, symbole **Re** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rhénium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_076",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **76**, symbole **Os** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Osmium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_077",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **77**, symbole **Ir** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Iridium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_078",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **78**, symbole **Pt** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Platine**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_079",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **79**, symbole **Au** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Or**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_080",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **80**, symbole **Hg** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mercure**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_081",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **81**, symbole **Tl** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Thallium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_082",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **82**, symbole **Pb** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Plomb**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_083",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **83**, symbole **Bi** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bismuth**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_084",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **84**, symbole **Po** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Polonium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_085",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **85**, symbole **At** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Astate**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_086",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **86**, symbole **Rn** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Radon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_087",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **87**, symbole **Fr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Francium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_088",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **88**, symbole **Ra** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Radium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_089",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **89**, symbole **Ac** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Actinium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_090",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **90**, symbole **Th** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Thorium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_091",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **91**, symbole **Pa** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Protactinium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_092",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **92**, symbole **U** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Uranium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_093",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **93**, symbole **Np** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Neptunium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_094",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **94**, symbole **Pu** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Plutonium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_095",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **95**, symbole **Am** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Américium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_096",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **96**, symbole **Cm** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Curium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_097",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **97**, symbole **Bk** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Berkélium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_098",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **98**, symbole **Cf** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Californium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_099",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **99**, symbole **Es** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Einsteinium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_100",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **100**, symbole **Fm** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Fermium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_101",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **101**, symbole **Md** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mendélévium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_102",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **102**, symbole **No** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nobélium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_103",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **103**, symbole **Lr** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lawrencium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_104",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **104**, symbole **Rf** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rutherfordium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_105",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **105**, symbole **Db** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dubnium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_106",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **106**, symbole **Sg** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Seaborgium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_107",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **107**, symbole **Bh** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bohrium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_108",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **108**, symbole **Hs** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Hassium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_109",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **109**, symbole **Mt** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Meitnérium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_110",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **110**, symbole **Ds** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Darmstadtium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_111",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **111**, symbole **Rg** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Roentgenium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_112",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **112**, symbole **Cn** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Copernicium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_113",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **113**, symbole **Nh** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nihonium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_114",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **114**, symbole **Fl** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Flerovium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_115",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **115**, symbole **Mc** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Moscovium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_116",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **116**, symbole **Lv** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Livermorium**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_117",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **117**, symbole **Ts** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tennesse**",
+        "image": ""
+      }
+    },
+    {
+      "id": "elem_118",
+      "tags": [
+        "periodique"
+      ],
+      "front": {
+        "text": "Élément numéro **118**, symbole **Og** : quel est son nom ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Oganesson**",
+        "image": ""
+      }
+    }
+  ]
+}

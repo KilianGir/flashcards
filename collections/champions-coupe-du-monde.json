@@ -1,0 +1,336 @@
+{
+  "id": "champions-coupe-du-monde",
+  "name": "Champions du monde de football",
+  "cards": [
+    {
+      "id": "cdm_001",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1930** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Uruguay**\n\nFinaliste : Argentine  \nPays hôte : Uruguay",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_002",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1934** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Italie**\n\nFinaliste : Tchécoslovaquie  \nPays hôte : Italie",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_003",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1938** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Italie**\n\nFinaliste : Hongrie  \nPays hôte : France",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_004",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1950** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Uruguay**\n\nFinaliste : Brésil  \nPays hôte : Brésil",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_005",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1954** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Allemagne (RFA)**\n\nFinaliste : Hongrie  \nPays hôte : Suisse",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_006",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1958** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brésil**\n\nFinaliste : Suède  \nPays hôte : Suède",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_007",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1962** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brésil**\n\nFinaliste : Tchécoslovaquie  \nPays hôte : Chili",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_008",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1966** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Angleterre**\n\nFinaliste : Allemagne (RFA)  \nPays hôte : Angleterre",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_009",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1970** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brésil**\n\nFinaliste : Italie  \nPays hôte : Mexique",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_010",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1974** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Allemagne (RFA)**\n\nFinaliste : Pays-Bas  \nPays hôte : Allemagne (RFA)",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_011",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1978** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Argentine**\n\nFinaliste : Pays-Bas  \nPays hôte : Argentine",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_012",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1982** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Italie**\n\nFinaliste : Allemagne (RFA)  \nPays hôte : Espagne",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_013",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1986** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Argentine**\n\nFinaliste : Allemagne (RFA)  \nPays hôte : Mexique",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_014",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1990** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Allemagne (RFA)**\n\nFinaliste : Argentine  \nPays hôte : Italie",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_015",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1994** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brésil**\n\nFinaliste : Italie  \nPays hôte : États-Unis",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_016",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **1998** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**France**\n\nFinaliste : Brésil  \nPays hôte : France",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_017",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2002** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brésil**\n\nFinaliste : Allemagne  \nPays hôte : Corée du Sud / Japon",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_018",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2006** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Italie**\n\nFinaliste : France  \nPays hôte : Allemagne",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_019",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2010** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Espagne**\n\nFinaliste : Pays-Bas  \nPays hôte : Afrique du Sud",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_020",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2014** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Allemagne**\n\nFinaliste : Argentine  \nPays hôte : Brésil",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_021",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2018** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**France**\n\nFinaliste : Croatie  \nPays hôte : Russie",
+        "image": ""
+      }
+    },
+    {
+      "id": "cdm_022",
+      "tags": [
+        "football",
+        "coupe-du-monde"
+      ],
+      "front": {
+        "text": "Qui a remporté la Coupe du monde de football en **2022** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Argentine**\n\nFinaliste : France  \nPays hôte : Qatar",
+        "image": ""
+      }
+    }
+  ]
+}

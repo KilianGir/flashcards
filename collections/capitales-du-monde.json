@@ -1,0 +1,2750 @@
+{
+  "id": "capitales-du-monde",
+  "name": "Capitales du monde",
+  "cards": [
+    {
+      "id": "cap_001",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Afghanistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kaboul**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_002",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Afrique du Sud** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Pretoria**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_003",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Albanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tirana**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_004",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Algérie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Alger**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_005",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Allemagne** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Berlin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_006",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Andorre** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Andorre-la-Vieille**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_007",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Angola** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Luanda**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_008",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Antigua-et-Barbuda** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Saint John's**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_009",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Arabie saoudite** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Riyad**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_010",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Argentine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Buenos Aires**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_011",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Arménie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Erevan**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_012",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Australie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Canberra**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_013",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Autriche** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vienne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_014",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Azerbaïdjan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bakou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_015",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bahamas** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nassau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_016",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bahreïn** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Manama**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_017",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bangladesh** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dacca**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_018",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Barbade** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bridgetown**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_019",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Belgique** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bruxelles**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_020",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Belize** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Belmopan**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_021",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bhoutan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Thimphou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_022",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Birmanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Naypyidaw**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_023",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Biélorussie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Minsk**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_024",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bolivie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sucre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_025",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bosnie-Herzégovine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sarajevo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_026",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Botswana** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Gaborone**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_027",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Brunei** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bandar Seri Begawan**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_028",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Brésil** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brasília**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_029",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bulgarie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sofia**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_030",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Burkina Faso** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ouagadougou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_031",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Burundi** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Gitega**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_032",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Bénin** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Porto-Novo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_033",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Cambodge** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Phnom Penh**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_034",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Cameroun** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Yaoundé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_035",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Canada** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ottawa**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_036",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Cap-Vert** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Praia**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_037",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Chili** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Santiago**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_038",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Chine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Pékin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_039",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Chypre** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nicosie**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_040",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Colombie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bogotá**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_041",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Comores** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Moroni**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_042",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Congo (Brazzaville)** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Brazzaville**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_043",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Congo (RDC)** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kinshasa**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_044",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Corée du Nord** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Pyongyang**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_045",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Corée du Sud** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Séoul**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_046",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Costa Rica** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**San José**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_047",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Croatie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Zagreb**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_048",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Cuba** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**La Havane**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_049",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Côte d'Ivoire** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Yamoussoukro**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_050",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Danemark** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Copenhague**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_051",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Djibouti** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Djibouti**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_052",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Dominique** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Roseau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_053",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Espagne** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Madrid**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_054",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Estonie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tallinn**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_055",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Eswatini** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mbabane**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_056",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Fidji** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Suva**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_057",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Finlande** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Helsinki**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_058",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **France** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Paris**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_059",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Gabon** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Libreville**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_060",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Gambie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Banjul**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_061",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Ghana** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Accra**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_062",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Grenade** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Saint-Georges**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_063",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Grèce** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Athènes**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_064",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Guatemala** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Guatemala**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_065",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Guinée** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Conakry**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_066",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Guinée équatoriale** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Malabo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_067",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Guinée-Bissau** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bissau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_068",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Guyana** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Georgetown**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_069",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Géorgie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tbilissi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_070",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Haïti** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Port-au-Prince**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_071",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Honduras** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tegucigalpa**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_072",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Hongrie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Budapest**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_073",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Inde** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**New Delhi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_074",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Indonésie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Jakarta**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_075",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Irak** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bagdad**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_076",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Iran** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Téhéran**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_077",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Irlande** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dublin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_078",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Islande** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Reykjavik**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_079",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Israël** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Jérusalem**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_080",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Italie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rome**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_081",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Jamaïque** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kingston**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_082",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Japon** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tokyo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_083",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Jordanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Amman**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_084",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Kazakhstan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Astana**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_085",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Kenya** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nairobi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_086",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Kirghizistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bichkek**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_087",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Kiribati** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tarawa-Sud**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_088",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Kosovo** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Pristina**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_089",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Koweït** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Koweït**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_090",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Laos** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vientiane**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_091",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Lesotho** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Maseru**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_092",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Lettonie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Riga**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_093",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Liban** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Beyrouth**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_094",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Liberia** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Monrovia**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_095",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Libye** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tripoli**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_096",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Liechtenstein** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vaduz**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_097",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Lituanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vilnius**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_098",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Luxembourg** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Luxembourg**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_099",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Macédoine du Nord** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Skopje**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_100",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Madagascar** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Antananarivo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_101",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Malaisie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kuala Lumpur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_102",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Malawi** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lilongwe**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_103",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Maldives** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Malé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_104",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Mali** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bamako**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_105",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Malte** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**La Valette**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_106",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Maroc** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Rabat**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_107",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Maurice** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Port-Louis**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_108",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Mauritanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nouakchott**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_109",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Mexique** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mexico**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_110",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Micronésie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Palikir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_111",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Moldavie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Chișinău**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_112",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Monaco** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Monaco**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_113",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Mongolie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Oulan-Bator**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_114",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Monténégro** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Podgorica**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_115",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Mozambique** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Maputo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_116",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Namibie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Windhoek**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_117",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Nauru** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Yaren**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_118",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Nicaragua** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Managua**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_119",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Niger** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Niamey**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_120",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Nigeria** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Abuja**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_121",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Norvège** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Oslo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_122",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Nouvelle-Zélande** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Wellington**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_123",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Népal** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Katmandou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_124",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Oman** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mascate**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_125",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Ouganda** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kampala**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_126",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Ouzbékistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tachkent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_127",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Pakistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Islamabad**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_128",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Palaos** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ngerulmud**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_129",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Palestine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ramallah**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_130",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Panama** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Panama**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_131",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Papouasie-Nouvelle-Guinée** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Port Moresby**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_132",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Paraguay** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Asunción**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_133",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Pays-Bas** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Amsterdam**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_134",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Philippines** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Manille**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_135",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Pologne** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Varsovie**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_136",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Portugal** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lisbonne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_137",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Pérou** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lima**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_138",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Qatar** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Doha**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_139",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Roumanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bucarest**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_140",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Royaume-Uni** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Londres**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_141",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Russie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Moscou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_142",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Rwanda** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kigali**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_143",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **République centrafricaine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bangui**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_144",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Saint-Christophe-et-Niévès** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Basseterre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_145",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Saint-Marin** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Saint-Marin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_146",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Saint-Vincent-et-les-Grenadines** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kingstown**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_147",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Sainte-Lucie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Castries**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_148",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Salvador** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**San Salvador**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_149",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Samoa** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Apia**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_150",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Serbie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Belgrade**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_151",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Seychelles** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Victoria**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_152",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Sierra Leone** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Freetown**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_153",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Singapour** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Singapour**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_154",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Slovaquie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bratislava**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_155",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Slovénie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ljubljana**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_156",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Somalie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Mogadiscio**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_157",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Soudan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Khartoum**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_158",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Soudan du Sud** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Djouba**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_159",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Sri Lanka** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sri Jayawardenapura Kotte**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_160",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Suisse** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Berne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_161",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Suriname** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Paramaribo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_162",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Suède** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Stockholm**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_163",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Syrie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Damas**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_164",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **São Tomé-et-Principe** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**São Tomé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_165",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Sénégal** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dakar**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_166",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tadjikistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Douchanbé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_167",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tanzanie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dodoma**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_168",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Taïwan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Taipei**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_169",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tchad** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**N'Djaména**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_170",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tchéquie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Prague**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_171",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Thaïlande** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Bangkok**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_172",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Timor oriental** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Dili**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_173",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Togo** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lomé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_174",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tonga** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Nukuʻalofa**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_175",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Trinité-et-Tobago** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Port d'Espagne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_176",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tunisie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Tunis**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_177",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Turkménistan** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Achgabat**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_178",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Turquie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Ankara**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_179",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Tuvalu** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Funafuti**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_180",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Ukraine** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Kiev**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_181",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Uruguay** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Montevideo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_182",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Vanuatu** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Port-Vila**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_183",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Vatican** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Vatican**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_184",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Venezuela** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Caracas**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_185",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Vietnam** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Hanoï**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_186",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Yémen** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Sanaa**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_187",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Zambie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Lusaka**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_188",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Zimbabwe** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Harare**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_189",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Égypte** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Le Caire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_190",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Émirats arabes unis** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Abou Dabi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_191",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Équateur** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Quito**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_192",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Érythrée** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Asmara**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_193",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **États-Unis** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Washington**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_194",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Éthiopie** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Addis-Abeba**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_195",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Îles Marshall** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Majuro**",
+        "image": ""
+      }
+    },
+    {
+      "id": "cap_196",
+      "tags": [
+        "capitales"
+      ],
+      "front": {
+        "text": "Quelle est la capitale de : **Îles Salomon** ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**Honiara**",
+        "image": ""
+      }
+    }
+  ]
+}

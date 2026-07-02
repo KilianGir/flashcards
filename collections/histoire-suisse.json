@@ -1,0 +1,524 @@
+{
+  "id": "histoire-suisse",
+  "name": "Grandes dates de l'histoire suisse",
+  "cards": [
+    {
+      "id": "ch_hist_001",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1291** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Pacte fédéral d'Uri, Schwytz et Unterwald : acte fondateur traditionnel de la Confédération.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_002",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1315** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Bataille de Morgarten : victoire des Confédérés contre les Habsbourg.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_003",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1332** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de Lucerne à la Confédération.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_004",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1351** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de Zurich à la Confédération.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_005",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1353** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "La Confédération passe à huit cantons (avec Berne, Glaris, Zoug).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_006",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1386** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Bataille de Sempach : nouvelle victoire contre les Habsbourg, mort de Léopold III d'Autriche.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_007",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1388** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Bataille de Näfels.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_008",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1415** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Conquête de l'Argovie.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_009",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1476** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Guerres de Bourgogne : victoires de Grandson et Morat contre Charles le Téméraire.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_010",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1481** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Convenant de Stans : intégration de Fribourg et Soleure, règle le conflit villes/campagnes.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_011",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1499** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Guerre de Souabe : indépendance de facto vis-à-vis du Saint-Empire romain germanique.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_012",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1501** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de Bâle et Schaffhouse à la Confédération.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_013",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1513** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion d'Appenzell : la Confédération compte 13 cantons (« Suisse des XIII cantons »).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_014",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1515** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Défaite de Marignan face à la France : fin de l'expansion territoriale et début de la politique de neutralité.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_015",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1519 - 1566** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Réforme protestante en Suisse (Zwingli à Zurich, Calvin à Genève).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_016",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1531** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Bataille de Kappel : mort de Zwingli, conflit entre cantons catholiques et protestants.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_017",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1648** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Traité de Westphalie : indépendance de la Confédération reconnue officiellement par les puissances européennes.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_018",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1798** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Invasion française et proclamation de la République helvétique, un État unitaire centralisé.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_019",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1803** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Acte de Médiation de Napoléon : retour à un système fédéraliste, six nouveaux cantons (dont Vaud, Argovie, Tessin).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_020",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1815** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Congrès de Vienne : la Suisse compte 22 cantons (dont Genève, Valais, Neuchâtel), sa neutralité perpétuelle est reconnue.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_021",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1847** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Guerre du Sonderbund : bref conflit entre cantons catholiques conservateurs et cantons libéraux/protestants.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_022",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1848** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adoption de la première Constitution fédérale : naissance de l'État fédéral suisse moderne.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_023",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1863** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Fondation du Comité international de la Croix-Rouge (CICR) à Genève par Henry Dunant.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_024",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1874** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Révision totale de la Constitution fédérale : renforcement des compétences fédérales, introduction du référendum.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_025",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1891** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Introduction du droit d'initiative populaire au niveau fédéral.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_026",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1907** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Entrée en vigueur du Code civil suisse.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_027",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1914 - 1918** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Neutralité de la Suisse pendant la Première Guerre mondiale.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_028",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1918** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Grève générale : mouvement social majeur, revendications sociales et politiques.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_029",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1919** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de la Suisse à la Société des Nations (siège à Genève).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_030",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1939 - 1945** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Neutralité armée pendant la Seconde Guerre mondiale ; mobilisation générale sous le général Henri Guisan et stratégie du Réduit national.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_031",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1959** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Mise en place de la « formule magique » : répartition des sièges au Conseil fédéral entre les principaux partis.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_032",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1963** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de la Suisse au Conseil de l'Europe.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_033",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1971** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Introduction du droit de vote et d'éligibilité des femmes au niveau fédéral.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_034",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1979** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Création du canton du Jura, détaché du canton de Berne.",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_035",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **1992** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Refus par votation populaire de l'adhésion à l'Espace économique européen (EEE).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_036",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **2002** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Adhésion de la Suisse à l'Organisation des Nations Unies (ONU).",
+        "image": ""
+      }
+    },
+    {
+      "id": "ch_hist_037",
+      "tags": [
+        "histoire-suisse"
+      ],
+      "front": {
+        "text": "Que s'est-il passé en **2005** dans l'histoire suisse ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Votation populaire approuvant l'association de la Suisse aux accords de Schengen et Dublin.",
+        "image": ""
+      }
+    }
+  ]
+}

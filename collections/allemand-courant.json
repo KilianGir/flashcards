@@ -1,0 +1,7746 @@
+{
+  "id": "allemand-courant",
+  "name": "Vocabulaire allemand courant",
+  "cards": [
+    {
+      "id": "de_001",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **ich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**je**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_002",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **du** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tu**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_003",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **er** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**il**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_004",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **sie** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**elle / ils/elles**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_005",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **es** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**il/elle (neutre)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_006",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **wir** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**nous**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_007",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **ihr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vous (familier pluriel)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_008",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **mein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mon/ma**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_009",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **dein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ton/ta**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_010",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **sein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**son/sa (à lui)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_011",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **ihr (poss.)** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**son/sa (à elle)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_012",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **unser** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**notre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_013",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **euer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**votre (familier)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_014",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **dieser** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**celui-ci / ce**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_015",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **jener** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**celui-là**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_016",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **welcher** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lequel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_017",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **man** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**on**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_018",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **jemand** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quelqu'un**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_019",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **niemand** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**personne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_020",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **etwas** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quelque chose**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_021",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **nichts** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rien**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_022",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **alles** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tout**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_023",
+      "tags": [
+        "allemand",
+        "pronoms"
+      ],
+      "front": {
+        "text": "Que signifie **jeder** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**chaque / chacun**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_024",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**qui**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_025",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **was** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quoi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_026",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wo** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**où**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_027",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wann** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quand**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_028",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **warum** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**pourquoi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_029",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wie** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**comment**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_030",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **welche** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quel/quelle**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_031",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wieviel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**combien**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_032",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **wohin** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vers où**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_033",
+      "tags": [
+        "allemand",
+        "mots-interrogatifs"
+      ],
+      "front": {
+        "text": "Que signifie **woher** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**d'où**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_034",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **haben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_035",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **werden** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**devenir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_036",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **können** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**pouvoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_037",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **müssen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**devoir (obligation)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_038",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sollen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**devoir (conseil)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_039",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wollen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vouloir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_040",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **dürfen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avoir le droit de**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_041",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **mögen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aimer bien**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_042",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **gehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aller / marcher**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_043",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kommen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**venir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_044",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **machen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_045",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sagen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_046",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**voir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_047",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wissen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**savoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_048",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **geben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**donner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_049",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **nehmen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**prendre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_050",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **finden** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**trouver**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_051",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **denken** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**penser**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_052",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **bleiben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rester**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_053",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **liegen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**être allongé / se situer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_054",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lassen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**laisser**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_055",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **rufen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**appeler**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_056",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fühlen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sentir / ressentir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_057",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **spielen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**jouer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_058",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **arbeiten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**travailler**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_059",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **brauchen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avoir besoin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_060",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fragen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**demander**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_061",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **glauben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**croire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_062",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **halten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tenir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_063",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **hören** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**entendre / écouter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_064",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kaufen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**acheter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_065",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kennen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**connaître**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_066",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **laufen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**courir / marcher**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_067",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **leben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vivre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_068",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lernen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**apprendre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_069",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lesen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_070",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lieben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aimer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_071",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **essen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**manger**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_072",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **trinken** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**boire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_073",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schlafen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dormir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_074",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fahren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**conduire / rouler**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_075",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fliegen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**voler (avion)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_076",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **helfen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aider**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_077",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **holen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aller chercher**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_078",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kochen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**cuisiner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_079",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lachen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_080",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **öffnen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ouvrir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_081",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schließen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**fermer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_082",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schreiben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**écrire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_083",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **singen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**chanter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_084",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sitzen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**être assis**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_085",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sprechen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**parler**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_086",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **stehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**être debout**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_087",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **steigen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**monter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_088",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **suchen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**chercher**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_089",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **tragen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**porter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_090",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **treffen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rencontrer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_091",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **tun** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_092",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **verstehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**comprendre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_093",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **warten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**attendre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_094",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wohnen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**habiter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_095",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **zeigen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**montrer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_096",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **ziehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tirer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_097",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **beginnen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**commencer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_098",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **bekommen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**recevoir / obtenir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_099",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **bringen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**apporter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_100",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **denken an** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**penser à**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_101",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **erzählen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**raconter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_102",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fallen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tomber**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_103",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fangen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**attraper**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_104",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fehlen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**manquer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_105",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **feiern** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**fêter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_106",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **folgen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**suivre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_107",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **fühlen sich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**se sentir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_108",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **gefallen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**plaire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_109",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **gehören** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**appartenir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_110",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **gewinnen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**gagner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_111",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **heißen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**s'appeler**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_112",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **helfen bei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aider à**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_113",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **holen sich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aller chercher pour soi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_114",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kämpfen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**combattre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_115",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kaufen ein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faire les courses**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_116",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kennenlernen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faire connaissance**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_117",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **klingen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sonner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_118",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **kümmern sich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**s'occuper de**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_119",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lächeln** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sourire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_120",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **lehren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**enseigner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_121",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **leihen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**prêter/emprunter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_122",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **mieten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**louer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_123",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **nennen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**nommer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_124",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **passieren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**se passer / arriver**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_125",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **planen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**planifier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_126",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **reden** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**parler / discuter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_127",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **reisen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**voyager**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_128",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **rennen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**courir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_129",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **riechen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sentir (odeur)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_130",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sammeln** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**collectionner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_131",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **scheinen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sembler / briller**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_132",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schicken** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**envoyer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_133",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schneiden** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**couper**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_134",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **schwimmen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**nager**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_135",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **setzen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**poser / s'asseoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_136",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **springen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sauter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_137",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **starten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**démarrer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_138",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **steigen ein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**monter dans**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_139",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **sterben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mourir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_140",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **studieren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**étudier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_141",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **teilen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**partager**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_142",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **telefonieren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**téléphoner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_143",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **träumen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rêver**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_144",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **trennen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**séparer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_145",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **üben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**s'entraîner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_146",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **umziehen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**déménager**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_147",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **verbringen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**passer (du temps)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_148",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **vergessen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**oublier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_149",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **verkaufen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vendre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_150",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **verlassen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quitter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_151",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **verlieren** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**perdre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_152",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **versprechen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**promettre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_153",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **versuchen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**essayer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_154",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **vorbereiten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**préparer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_155",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wachsen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**grandir / pousser**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_156",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wählen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**choisir / voter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_157",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wechseln** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**changer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_158",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wiederholen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**répéter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_159",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **wünschen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**souhaiter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_160",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **zahlen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**payer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_161",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **zählen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**compter**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_162",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **zeichnen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dessiner**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_163",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **zerstören** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**détruire**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_164",
+      "tags": [
+        "allemand",
+        "verbes"
+      ],
+      "front": {
+        "text": "Que signifie **ziehen um** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**déménager**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_165",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Zeit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le temps**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_166",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Jahr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'année**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_167",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Tag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le jour**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_168",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Mann** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'homme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_169",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Frau** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la femme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_170",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Kind** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'enfant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_171",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Haus** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la maison**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_172",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Welt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le monde**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_173",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Leben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la vie**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_174",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Hand** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la main**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_175",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Auge** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'œil**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_176",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Wort** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le mot**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_177",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Platz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la place**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_178",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Fall** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le cas**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_179",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Teil** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la partie**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_180",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Frage** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la question**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_181",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Recht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le droit**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_182",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Ende** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la fin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_183",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Land** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pays**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_184",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Staat** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'État**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_185",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Stadt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la ville**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_186",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Familie** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la famille**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_187",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Freund** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'ami**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_188",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Arbeit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le travail**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_189",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Buch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le livre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_190",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Auto** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la voiture**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_191",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Wasser** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'eau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_192",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Brot** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pain**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_193",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Geld** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'argent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_194",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Schule** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'école**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_195",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Straße** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la rue**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_196",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Zimmer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la pièce/chambre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_197",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Tür** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la porte**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_198",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Fenster** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la fenêtre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_199",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Tisch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la table**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_200",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Stuhl** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la chaise**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_201",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Küche** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la cuisine**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_202",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Garten** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le jardin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_203",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Baum** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'arbre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_204",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Blume** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la fleur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_205",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Sonne** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le soleil**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_206",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Mond** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la lune**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_207",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Stern** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'étoile**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_208",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Himmel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le ciel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_209",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Wetter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le temps (météo)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_210",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Regen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la pluie**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_211",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Schnee** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la neige**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_212",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Wind** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le vent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_213",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Kopf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la tête**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_214",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Herz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le cœur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_215",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Fuß** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pied**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_216",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Bein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la jambe**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_217",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Arm** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le bras**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_218",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Mund** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la bouche**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_219",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Nase** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le nez**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_220",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Ohr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'oreille**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_221",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Gesicht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le visage**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_222",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Körper** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le corps**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_223",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Woche** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la semaine**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_224",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Monat** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le mois**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_225",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Stunde** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'heure**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_226",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Minute** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la minute**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_227",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Morgen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le matin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_228",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Abend** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le soir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_229",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Nacht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la nuit**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_230",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Mutter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la mère**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_231",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Vater** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le père**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_232",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Schwester** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la sœur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_233",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Bruder** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le frère**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_234",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Tochter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la fille (enfant)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_235",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Sohn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le fils**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_236",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Firma** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'entreprise**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_237",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Chef** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le chef**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_238",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Kollege** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le collègue**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_239",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Stelle** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le poste**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_240",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Essen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le repas / la nourriture**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_241",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Kaffee** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le café**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_242",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Tee** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le thé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_243",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Milch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le lait**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_244",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Fleisch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la viande**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_245",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Gemüse** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**les légumes**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_246",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Obst** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**les fruits**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_247",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Apfel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la pomme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_248",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Kartoffel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la pomme de terre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_249",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Reis** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le riz**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_250",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Krankenhaus** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'hôpital**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_251",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Arzt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le médecin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_252",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Geschäft** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le magasin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_253",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Markt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le marché**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_254",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Bank** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la banque**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_255",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Preis** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le prix**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_256",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Reise** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le voyage**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_257",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Zug** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le train**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_258",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Flugzeug** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'avion**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_259",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Schiff** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le bateau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_260",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Idee** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'idée**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_261",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Grund** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la raison**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_262",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Antwort** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la réponse**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_263",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Meinung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'opinion**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_264",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Nachricht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le message / la nouvelle**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_265",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Zeitung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le journal**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_266",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Bild** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'image**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_267",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Musik** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la musique**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_268",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Film** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le film**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_269",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Spiel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le jeu**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_270",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Sprache** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la langue**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_271",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Land (nation)** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pays**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_272",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Regierung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le gouvernement**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_273",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Gesetz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la loi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_274",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Krieg** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la guerre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_275",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Frieden** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la paix**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_276",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Freiheit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la liberté**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_277",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Gesundheit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la santé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_278",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Liebe** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'amour**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_279",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Traum** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le rêve**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_280",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Angst** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la peur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_281",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Hoffnung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'espoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_282",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Kraft** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la force**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_283",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Macht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pouvoir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_284",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **gut** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_285",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schlecht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mauvais**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_286",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **groß** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**grand**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_287",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **klein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**petit**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_288",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **alt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vieux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_289",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **neu** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**nouveau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_290",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **jung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**jeune**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_291",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schön** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**beau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_292",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **hässlich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**laid**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_293",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schnell** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rapide**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_294",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **langsam** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_295",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **warm** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**chaud**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_296",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **kalt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**froid**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_297",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **hoch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**haut**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_298",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **niedrig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bas**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_299",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **lang** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**long**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_300",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **kurz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**court**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_301",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **breit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**large**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_302",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schmal** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**étroit**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_303",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schwer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lourd / difficile**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_304",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **leicht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**léger / facile**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_305",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **stark** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**fort**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_306",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schwach** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faible**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_307",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **reich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**riche**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_308",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **arm** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**pauvre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_309",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **glücklich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**heureux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_310",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **traurig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**triste**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_311",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **müde** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**fatigué**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_312",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **hungrig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**affamé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_313",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **durstig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**assoiffé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_314",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **gesund** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**en bonne santé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_315",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **krank** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**malade**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_316",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **wichtig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**important**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_317",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **richtig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**correct**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_318",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **falsch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**faux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_319",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **einfach** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**simple**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_320",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schwierig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**difficile**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_321",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **laut** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bruyant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_322",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **leise** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**silencieux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_323",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **sauber** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**propre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_324",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **schmutzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sale**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_325",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **voll** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**plein**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_326",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **leer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vide**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_327",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **teuer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**cher**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_328",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **billig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bon marché**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_329",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **frei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**libre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_330",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **offen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ouvert**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_331",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **geschlossen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**fermé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_332",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **hell** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**clair / lumineux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_333",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **dunkel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sombre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_334",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **nah** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**proche**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_335",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **weit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**loin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_336",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **früh** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tôt**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_337",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **spät** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tard**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_338",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **fertig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**prêt / fini**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_339",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **sicher** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sûr**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_340",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **gefährlich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dangereux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_341",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **möglich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**possible**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_342",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **unmöglich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**impossible**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_343",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **interessant** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**intéressant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_344",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **langweilig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ennuyeux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_345",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **freundlich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aimable**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_346",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **bekannt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**connu**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_347",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **berühmt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**célèbre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_348",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **modern** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**moderne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_349",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **traditionell** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**traditionnel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_350",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **und** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**et**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_351",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **oder** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_352",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **aber** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mais**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_353",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **weil** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**parce que**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_354",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **dass** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**que (conj.)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_355",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **wenn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**si / quand**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_356",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **als** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lorsque / comme**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_357",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **obwohl** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bien que**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_358",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **während** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**pendant que**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_359",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **bevor** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avant que**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_360",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **nachdem** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**après que**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_361",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **in** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dans**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_362",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **auf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_363",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **unter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sous**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_364",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **über** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**au-dessus / à propos de**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_365",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **neben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**à côté de**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_366",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **zwischen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**entre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_367",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **vor** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**devant / avant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_368",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **hinter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**derrière**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_369",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **mit** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avec**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_370",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **ohne** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sans**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_371",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **für** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**pour**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_372",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **gegen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**contre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_373",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **durch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**à travers / par**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_374",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **um** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**autour de / à (heure)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_375",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **an** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**à / sur (contact vertical)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_376",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **bei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**chez / près de**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_377",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **nach** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**après / vers**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_378",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **von** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**de (provenance)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_379",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **zu** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**à / vers**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_380",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **aus** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**de (provenance/origine)**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_381",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **auch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aussi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_382",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **noch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**encore**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_383",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **schon** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**déjà**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_384",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **nur** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**seulement**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_385",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **sehr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**très**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_386",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **mehr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**plus**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_387",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **weniger** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**moins**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_388",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **wieder** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**de nouveau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_389",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **immer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**toujours**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_390",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **nie** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**jamais**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_391",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **manchmal** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**parfois**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_392",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **oft** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**souvent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_393",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **heute** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aujourd'hui**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_394",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **morgen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**demain**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_395",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **gestern** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**hier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_396",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **jetzt** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**maintenant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_397",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **bald** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bientôt**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_398",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **hier** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ici**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_399",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **dort** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**là-bas**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_400",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **überall** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**partout**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_401",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **nirgendwo** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**nulle part**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_402",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **vielleicht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**peut-être**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_403",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **natürlich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bien sûr**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_404",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **wirklich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vraiment**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_405",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **besonders** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**particulièrement**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_406",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **zusammen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**ensemble**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_407",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **allein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**seul**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_408",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **genug** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**assez**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_409",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **fast** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**presque**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_410",
+      "tags": [
+        "allemand",
+        "mots-outils"
+      ],
+      "front": {
+        "text": "Que signifie **ganz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**tout à fait / entier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_411",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **null** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**zéro**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_412",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **eins** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**un**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_413",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **zwei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**deux**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_414",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **drei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**trois**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_415",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **vier** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quatre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_416",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **fünf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**cinq**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_417",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **sechs** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**six**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_418",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **sieben** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sept**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_419",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **acht** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**huit**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_420",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **neun** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**neuf**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_421",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **zehn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dix**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_422",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **elf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**onze**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_423",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **zwölf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**douze**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_424",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **dreizehn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**treize**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_425",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **zwanzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vingt**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_426",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **dreißig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**trente**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_427",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **vierzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quarante**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_428",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **fünfzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**cinquante**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_429",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **sechzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**soixante**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_430",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **siebzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**soixante-dix**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_431",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **achtzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quatre-vingts**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_432",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **neunzig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**quatre-vingt-dix**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_433",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **hundert** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**cent**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_434",
+      "tags": [
+        "allemand",
+        "nombres"
+      ],
+      "front": {
+        "text": "Que signifie **tausend** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mille**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_435",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Montag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**lundi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_436",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Dienstag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mardi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_437",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Mittwoch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mercredi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_438",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Donnerstag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**jeudi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_439",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Freitag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vendredi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_440",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Samstag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**samedi**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_441",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Sonntag** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dimanche**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_442",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Januar** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**janvier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_443",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Februar** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**février**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_444",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **März** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mars**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_445",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **April** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**avril**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_446",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Mai** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mai**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_447",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Juni** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**juin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_448",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Juli** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**juillet**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_449",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **August** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**août**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_450",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **September** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**septembre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_451",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Oktober** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**octobre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_452",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **November** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**novembre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_453",
+      "tags": [
+        "allemand",
+        "jours-mois"
+      ],
+      "front": {
+        "text": "Que signifie **Dezember** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**décembre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_454",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **rot** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rouge**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_455",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **blau** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**bleu**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_456",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **gelb** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**jaune**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_457",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **grün** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**vert**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_458",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **schwarz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**noir**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_459",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **weiß** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**blanc**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_460",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **grau** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**gris**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_461",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **braun** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**brun**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_462",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **orange** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**orange**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_463",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **rosa** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**rose**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_464",
+      "tags": [
+        "allemand",
+        "couleurs"
+      ],
+      "front": {
+        "text": "Que signifie **lila** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**violet**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_465",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Beruf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le métier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_466",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Lehrer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'enseignant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_467",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Ingenieur** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'ingénieur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_468",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Bauer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le paysan**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_469",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Polizist** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le policier**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_470",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Verkäufer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le vendeur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_471",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Hund** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le chien**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_472",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Katze** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le chat**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_473",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Vogel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'oiseau**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_474",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Pferd** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le cheval**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_475",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Kuh** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la vache**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_476",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Fisch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le poisson**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_477",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Käse** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le fromage**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_478",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Ei** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'œuf**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_479",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Zucker** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le sucre**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_480",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Salz** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le sel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_481",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Wein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le vin**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_482",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Bier** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la bière**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_483",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Fahrrad** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le vélo**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_484",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Bus** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le bus**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_485",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die U-Bahn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le métro**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_486",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Flughafen** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'aéroport**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_487",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Bahnhof** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la gare**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_488",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Handy** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le téléphone portable**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_489",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Computer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'ordinateur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_490",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Internet** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**internet**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_491",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die E-Mail** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le courriel**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_492",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Kleidung** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**les vêtements**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_493",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Hose** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le pantalon**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_494",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **das Hemd** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la chemise**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_495",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Schuh** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la chaussure**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_496",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Tasche** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le sac**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_497",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Schlüssel** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la clé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_498",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **die Uhr** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**la montre / l'horloge**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_499",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Winter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'hiver**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_500",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Sommer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'été**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_501",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Frühling** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**le printemps**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_502",
+      "tags": [
+        "allemand",
+        "noms"
+      ],
+      "front": {
+        "text": "Que signifie **der Herbst** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**l'automne**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_503",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **dick** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**gros**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_504",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **dünn** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mince**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_505",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **weich** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mou**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_506",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **hart** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**dur**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_507",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **scharf** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**épicé / tranchant**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_508",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **süß** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sucré**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_509",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **sauer** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**aigre / fâché**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_510",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **bitter** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**amer**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_511",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **frisch** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**frais**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_512",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **trocken** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**sec**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_513",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **nass** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**mouillé**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_514",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **fertig sein** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**être prêt**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_515",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **verheiratet** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**marié**",
+        "image": ""
+      }
+    },
+    {
+      "id": "de_516",
+      "tags": [
+        "allemand",
+        "adjectifs"
+      ],
+      "front": {
+        "text": "Que signifie **ledig** en français ?",
+        "image": ""
+      },
+      "back": {
+        "text": "**célibataire**",
+        "image": ""
+      }
+    }
+  ]
+}
