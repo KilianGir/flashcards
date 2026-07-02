@@ -1,0 +1,1074 @@
+{
+  "id": "cheatsheet-maths",
+  "name": "Cheat Sheet Maths (Algèbre, Trigo, Calculus, Laplace)",
+  "cards": [
+    {
+      "id": "alg_exp_prod",
+      "tags": "algebre exposants",
+      "front": {
+        "text": "Propriété des exposants : $a^n \\cdot a^m = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$a^n \\cdot a^m = a^{n+m}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_exp_quot",
+      "tags": "algebre exposants",
+      "front": {
+        "text": "Propriété des exposants : $\\dfrac{a^n}{a^m} = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{a^n}{a^m} = a^{n-m}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_exp_pow",
+      "tags": "algebre exposants",
+      "front": {
+        "text": "Propriété des exposants : $(a^n)^m = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$(a^n)^m = a^{nm}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_exp_neg",
+      "tags": "algebre exposants",
+      "front": {
+        "text": "Que vaut $a^{-n}$ (pour $a \\neq 0$) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$a^{-n} = \\frac{1}{a^n}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_exp_zero",
+      "tags": "algebre exposants",
+      "front": {
+        "text": "Que vaut $a^0$ (pour $a \\neq 0$) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$a^0 = 1$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_rad_root",
+      "tags": "algebre radicaux",
+      "front": {
+        "text": "Comment relier $a^{1/n}$ à une racine ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$a^{1/n} = \\sqrt[n]{a}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_quad_formula",
+      "tags": "algebre equations",
+      "front": {
+        "text": "Quelle est la formule quadratique pour résoudre $ax^2+bx+c=0$ ($a \\neq 0$) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_quad_discriminant",
+      "tags": "algebre equations",
+      "front": {
+        "text": "Que nous apprend le signe de $b^2-4ac$ sur les solutions de $ax^2+bx+c=0$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "- Si $b^2-4ac>0$ : deux solutions réelles distinctes.\n- Si $b^2-4ac=0$ : une solution réelle double.\n- Si $b^2-4ac<0$ : deux solutions complexes.",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_diff_squares",
+      "tags": "algebre factorisation",
+      "front": {
+        "text": "Factoriser $x^2 - a^2$.",
+        "image": ""
+      },
+      "back": {
+        "text": "$$x^2-a^2=(x-a)(x+a)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_sum_cubes",
+      "tags": "algebre factorisation",
+      "front": {
+        "text": "Factoriser $x^3 + a^3$.",
+        "image": ""
+      },
+      "back": {
+        "text": "$$x^3+a^3=(x+a)(x^2-ax+a^2)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_diff_cubes",
+      "tags": "algebre factorisation",
+      "front": {
+        "text": "Factoriser $x^3 - a^3$.",
+        "image": ""
+      },
+      "back": {
+        "text": "$$x^3-a^3=(x-a)(x^2+ax+a^2)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_log_def",
+      "tags": "algebre logarithmes",
+      "front": {
+        "text": "Définition : $y = \\log_b x$ équivaut à quelle expression exponentielle ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$y=\\log_b x \\iff b^y = x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_log_prod",
+      "tags": "algebre logarithmes",
+      "front": {
+        "text": "Propriété des logarithmes : $\\log_b(xy) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\log_b(xy) = \\log_b x + \\log_b y$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_log_quot",
+      "tags": "algebre logarithmes",
+      "front": {
+        "text": "Propriété des logarithmes : $\\log_b\\left(\\dfrac{x}{y}\\right) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\log_b\\left(\\frac{x}{y}\\right) = \\log_b x - \\log_b y$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_log_pow",
+      "tags": "algebre logarithmes",
+      "front": {
+        "text": "Propriété des logarithmes : $\\log_b(x^r) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\log_b(x^r) = r\\log_b x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_distance",
+      "tags": "algebre geometrie",
+      "front": {
+        "text": "Formule de la distance entre deux points $P_1(x_1,y_1)$ et $P_2(x_2,y_2)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$d(P_1,P_2) = \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "alg_complex_conj",
+      "tags": "algebre nombres-complexes",
+      "front": {
+        "text": "Que vaut le produit $(a+bi)(a-bi)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$(a+bi)(a-bi) = a^2+b^2$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_def_sin",
+      "tags": "trigo definitions",
+      "front": {
+        "text": "Dans un triangle rectangle, comment définit-on $\\sin\\theta$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\sin\\theta = \\frac{\\text{opposé}}{\\text{hypoténuse}}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_def_cos",
+      "tags": "trigo definitions",
+      "front": {
+        "text": "Dans un triangle rectangle, comment définit-on $\\cos\\theta$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypoténuse}}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_def_tan",
+      "tags": "trigo definitions",
+      "front": {
+        "text": "Dans un triangle rectangle, comment définit-on $\\tan\\theta$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\tan\\theta = \\frac{\\text{opposé}}{\\text{adjacent}} = \\frac{\\sin\\theta}{\\cos\\theta}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_pyth1",
+      "tags": "trigo identites",
+      "front": {
+        "text": "Identité de Pythagore principale reliant $\\sin$ et $\\cos$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\sin^2\\theta + \\cos^2\\theta = 1$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_pyth2",
+      "tags": "trigo identites",
+      "front": {
+        "text": "Identité de Pythagore reliant $\\tan$ et $\\sec$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\tan^2\\theta + 1 = \\sec^2\\theta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_pyth3",
+      "tags": "trigo identites",
+      "front": {
+        "text": "Identité de Pythagore reliant $\\cot$ et $\\csc$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$1 + \\cot^2\\theta = \\csc^2\\theta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_double_sin",
+      "tags": "trigo angle-double",
+      "front": {
+        "text": "Formule de l'angle double pour $\\sin(2\\theta)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\sin(2\\theta) = 2\\sin\\theta\\cos\\theta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_double_cos",
+      "tags": "trigo angle-double",
+      "front": {
+        "text": "Formule de l'angle double pour $\\cos(2\\theta)$ (une des trois formes) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_sum_sin",
+      "tags": "trigo somme-difference",
+      "front": {
+        "text": "Formule d'addition pour $\\sin(\\alpha \\pm \\beta)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\sin(\\alpha\\pm\\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_sum_cos",
+      "tags": "trigo somme-difference",
+      "front": {
+        "text": "Formule d'addition pour $\\cos(\\alpha \\pm \\beta)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\cos(\\alpha\\pm\\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_unit_30",
+      "tags": "trigo cercle-trigo",
+      "front": {
+        "text": "Sur le cercle trigonométrique, quelles sont les coordonnées associées à $\\theta = \\pi/6$ (30°) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\left(\\cos\\frac{\\pi}{6},\\sin\\frac{\\pi}{6}\\right) = \\left(\\frac{\\sqrt3}{2},\\frac{1}{2}\\right)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_unit_45",
+      "tags": "trigo cercle-trigo",
+      "front": {
+        "text": "Sur le cercle trigonométrique, quelles sont les coordonnées associées à $\\theta = \\pi/4$ (45°) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\left(\\cos\\frac{\\pi}{4},\\sin\\frac{\\pi}{4}\\right) = \\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt2}{2}\\right)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_unit_60",
+      "tags": "trigo cercle-trigo",
+      "front": {
+        "text": "Sur le cercle trigonométrique, quelles sont les coordonnées associées à $\\theta = \\pi/3$ (60°) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\left(\\cos\\frac{\\pi}{3},\\sin\\frac{\\pi}{3}\\right) = \\left(\\frac{1}{2},\\frac{\\sqrt3}{2}\\right)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "trig_reciprocal",
+      "tags": "trigo definitions",
+      "front": {
+        "text": "Relation entre $\\csc\\theta$ et $\\sin\\theta$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\csc\\theta = \\frac{1}{\\sin\\theta}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lim_def_working",
+      "tags": "calculus limites",
+      "front": {
+        "text": "Définition « intuitive » (working definition) de $\\lim_{x\\to a} f(x) = L$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "On peut rendre $f(x)$ aussi proche de $L$ qu'on le souhaite en prenant $x$ suffisamment proche de $a$ (sans que $x=a$).",
+        "image": ""
+      }
+    },
+    {
+      "id": "lim_hopital",
+      "tags": "calculus limites",
+      "front": {
+        "text": "Que dit la règle de L'Hospital pour lever une forme indéterminée $\\frac{0}{0}$ ou $\\frac{\\infty}{\\infty}$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\lim_{x\\to a}\\frac{f(x)}{g(x)} = \\lim_{x\\to a}\\frac{f'(x)}{g'(x)}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lim_sum_rule",
+      "tags": "calculus limites",
+      "front": {
+        "text": "Règle de limite pour une somme : $\\lim [f(x)+g(x)] = ?$ (si les deux limites existent)",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\lim_{x\\to a}[f(x)+g(x)] = \\lim_{x\\to a}f(x) + \\lim_{x\\to a}g(x)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lim_continuity",
+      "tags": "calculus limites",
+      "front": {
+        "text": "Que signifie « $f$ est continue en $a$ » en termes de limite ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\lim_{x\\to a} f(x) = f(a)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_def",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Définition de la dérivée $f'(x)$ à partir d'une limite ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$f'(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_power_rule",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Règle de la puissance : $\\dfrac{d}{dx}(x^n) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(x^n) = nx^{n-1}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_product_rule",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Règle du produit pour $(fg)'$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$(fg)' = f'g + fg'$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_quotient_rule",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Règle du quotient pour $\\left(\\dfrac{f}{g}\\right)'$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_chain_rule",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Règle de la chaîne pour $\\dfrac{d}{dx}f(g(x))$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}f(g(x)) = f'(g(x))\\cdot g'(x)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_sin",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\sin x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\sin x) = \\cos x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_cos",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\cos x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\cos x) = -\\sin x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_tan",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\tan x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\tan x) = \\sec^2 x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_exp",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(e^x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(e^x) = e^x$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_ln",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\ln x) = ?$ (pour $x>0$)",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_arcsin",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\arcsin x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\arcsin x) = \\frac{1}{\\sqrt{1-x^2}}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_arctan",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "$\\dfrac{d}{dx}(\\arctan x) = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\frac{d}{dx}(\\arctan x) = \\frac{1}{1+x^2}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_critical_point",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Quand dit-on que $x=c$ est un point critique de $f$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "Quand $f'(c)=0$ ou que $f'(c)$ n'existe pas.",
+        "image": ""
+      }
+    },
+    {
+      "id": "der_2nd_test",
+      "tags": "calculus derivees",
+      "front": {
+        "text": "Que dit le test de la dérivée seconde si $f'(c)=0$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "- Si $f''(c) < 0$ : maximum relatif en $c$.\n- Si $f''(c) > 0$ : minimum relatif en $c$.\n- Si $f''(c) = 0$ : test non concluant.",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_def_indef",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "Qu'est-ce qu'une intégrale indéfinie $\\int f(x)\\,dx$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int f(x)\\,dx = F(x) + c$$ où $F$ est une primitive de $f$ (i.e. $F'=f$).",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_ftc2",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "Théorème fondamental du calcul (partie II) : que vaut $\\int_a^b f(x)\\,dx$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int_a^b f(x)\\,dx = F(b) - F(a)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_power_rule",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int x^n\\,dx = ?$ (pour $n \\neq -1$)",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_1_over_x",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int \\frac{1}{x}\\,dx = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int \\frac{1}{x}\\,dx = \\ln|x| + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_exp",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int e^x\\,dx = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int e^x\\,dx = e^x + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_sin",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int \\sin x\\,dx = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int \\sin x\\,dx = -\\cos x + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_cos",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int \\cos x\\,dx = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int \\cos x\\,dx = \\sin x + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_sec2",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "$\\int \\sec^2 x\\,dx = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int \\sec^2 x\\,dx = \\tan x + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_by_parts",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "Formule d'intégration par parties ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int u\\,dv = uv - \\int v\\,du$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_substitution",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "Principe de la substitution $u=g(x)$ dans $\\int f(g(x))g'(x)\\,dx$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int f(g(x))g'(x)\\,dx = \\int f(u)\\,du \\quad \\text{avec } u=g(x),\\ du=g'(x)dx$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "int_arctan_form",
+      "tags": "calculus integrales",
+      "front": {
+        "text": "Forme générale : $\\int \\dfrac{1}{a^2+u^2}\\,du = ?$",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\int \\frac{1}{a^2+u^2}\\,du = \\frac{1}{a}\\arctan\\left(\\frac{u}{a}\\right) + c$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_1",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $f(t)=1$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{1\\} = \\frac{1}{s}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_exp",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $e^{at}$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{e^{at}\\} = \\frac{1}{s-a}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_tn",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $t^n$ (n entier positif) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{t^n\\} = \\frac{n!}{s^{n+1}}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_sin",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $\\sin(at)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{\\sin(at)\\} = \\frac{a}{s^2+a^2}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_cos",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $\\cos(at)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{\\cos(at)\\} = \\frac{s}{s^2+a^2}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "lap_deriv1",
+      "tags": "laplace",
+      "front": {
+        "text": "Transformée de Laplace de $f'(t)$ en fonction de $F(s)$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\mathcal{L}\\{f'(t)\\} = sF(s) - f(0)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_carre",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un carré de côté $c$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = c^2$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_rectangle",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un rectangle de longueur $L$ et largeur $l$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = L \\times l$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_triangle",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un triangle de base $b$ et hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\frac{1}{2}bh$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_triangle_heron",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Formule de Héron pour l'aire d'un triangle de côtés $a,b,c$ (avec $s=\\frac{a+b+c}{2}$) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\sqrt{s(s-a)(s-b)(s-c)}$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_parallelogramme",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un parallélogramme de base $b$ et hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = b \\times h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_trapeze",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un trapèze de bases $b_1$, $b_2$ et de hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\frac{(b_1+b_2)}{2}\\,h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_cercle",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un cercle de rayon $r$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\pi r^2$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_perimetre_cercle",
+      "tags": "geometrie perimetres",
+      "front": {
+        "text": "Circonférence (périmètre) d'un cercle de rayon $r$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$C = 2\\pi r$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_secteur",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'un secteur circulaire de rayon $r$ et d'angle $\\theta$ (en radians) ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\frac{1}{2}r^2\\theta$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_ellipse",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'une ellipse de demi-axes $a$ et $b$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = \\pi a b$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_perimetre_rectangle",
+      "tags": "geometrie perimetres",
+      "front": {
+        "text": "Périmètre d'un rectangle de longueur $L$ et largeur $l$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$P = 2(L+l)$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_cube",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'un cube de côté $c$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = c^3$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_pave",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'un pavé droit (parallélépipède rectangle) de dimensions $L$, $l$, $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = L \\times l \\times h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_cylindre",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'un cylindre de rayon $r$ et hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = \\pi r^2 h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_cylindre",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire totale (surface) d'un cylindre de rayon $r$ et hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = 2\\pi r^2 + 2\\pi r h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_cone",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'un cône de rayon de base $r$ et hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = \\frac{1}{3}\\pi r^2 h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_cone",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire latérale d'un cône de rayon $r$ et de génératrice (apothème) $s$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A_{lat} = \\pi r s$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_sphere",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'une sphère de rayon $r$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = \\frac{4}{3}\\pi r^3$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_aire_sphere",
+      "tags": "geometrie aires",
+      "front": {
+        "text": "Aire d'une sphère de rayon $r$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$A = 4\\pi r^2$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_pyramide",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'une pyramide d'aire de base $B$ et de hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = \\frac{1}{3}Bh$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_vol_prisme",
+      "tags": "geometrie volumes",
+      "front": {
+        "text": "Volume d'un prisme droit d'aire de base $B$ et de hauteur $h$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$V = B \\times h$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_pythagore",
+      "tags": "geometrie theoremes",
+      "front": {
+        "text": "Théorème de Pythagore dans un triangle rectangle de cathètes $a,b$ et hypoténuse $c$ ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$a^2 + b^2 = c^2$$",
+        "image": ""
+      }
+    },
+    {
+      "id": "geo_somme_angles_triangle",
+      "tags": "geometrie theoremes",
+      "front": {
+        "text": "Somme des angles intérieurs d'un triangle ?",
+        "image": ""
+      },
+      "back": {
+        "text": "$$\\alpha + \\beta + \\gamma = 180^\\circ = \\pi \\text{ rad}$$",
+        "image": ""
+      }
+    }
+  ]
+}
