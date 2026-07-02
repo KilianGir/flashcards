@@ -1,11 +1,11 @@
 {
   "collections": [
         { "id": "flags-of-the-world", "name": "Flags of the world", "file": "collections/flags-of-the-world.json" },
-    { "id": "cheatsheet-maths", "name": "Cheat Sheet Maths", "file": "collections/cheatsheet-maths.json" },
-    { "id": "capitales-du-monde", "name": "Capitales du monde", "file": "collections/capitales-du-monde.json" },
-    { "id": "tableau-periodique", "name": "Tableau périodique des éléments", "file": "collections/tableau-periodique.json" },
-    { "id": "allemand-courant", "name": "Vocabulaire allemand courant", "file": "collections/allemand-courant.json" },
-    { "id": "histoire-suisse", "name": "Grandes dates de l'histoire suisse", "file": "collections/histoire-suisse.json" },
-    { "id": "champions-coupe-du-monde", "name": "Champions du monde de football", "file": "collections/champions-coupe-du-monde.json" }
+        { "id": "cheatsheet-maths", "name": "Cheat Sheet Maths", "file": "collections/cheatsheet-maths.json" },
+        { "id": "capitales-du-monde", "name": "Capitales du monde", "file": "collections/capitales-du-monde.json" },
+        { "id": "tableau-periodique", "name": "Tableau périodique des éléments", "file": "collections/tableau-periodique.json" },
+        { "id": "allemand-courant", "name": "Vocabulaire allemand courant", "file": "collections/allemand-courant.json" },
+        { "id": "histoire-suisse", "name": "Grandes dates de l'histoire suisse", "file": "collections/histoire-suisse.json" },
+        { "id": "champions-coupe-du-monde", "name": "Champions du monde de football", "file": "collections/champions-coupe-du-monde.json" }
   ]
 }
