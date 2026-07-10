@@ -175,6 +175,18 @@
         <p class="small" style="margin-top:10px;">En répétition espacée, les cartes notées « facile » reviennent plus tard, celles notées « à revoir » reviennent vite. Le mode aléatoire simple mélange tout sans planification.</p>
       </div>
 
+      <div class="panel">
+        <h3>Sauvegarde de la progression</h3>
+        <p class="small">La progression de répétition espacée (facteur EF, intervalles) est stockée localement dans ce navigateur. Exporte-la de temps en temps pour ne pas la perdre, ou pour la transférer sur un autre appareil.</p>
+        <div class="row" style="margin-top:12px;">
+          <button class="btn btn-sm" id="btn-export-progress">Exporter la progression</button>
+          <label class="btn btn-sm" style="margin:0;">
+            Importer une progression
+            <input type="file" id="input-import-progress" accept="application/json" style="display:none;">
+          </label>
+        </div>
+      </div>
+
       <button class="btn btn-primary" id="btn-start-session" style="font-size:.95rem;padding:12px 22px;">Lancer la session</button>
     </div>
 
@@ -390,6 +402,26 @@ let sessionStats = {total:0, graded:0};
 const SR_KEY = 'flashcards-sr-state-v1';
 function loadSRState(){ try{ return JSON.parse(localStorage.getItem(SR_KEY))||{}; }catch(e){ return {}; } }
 function saveSRState(state){ localStorage.setItem(SR_KEY, JSON.stringify(state)); }
+
+$('#btn-export-progress').onclick = ()=>{
+  const state = loadSRState();
+  const count = Object.keys(state).length;
+  if(count===0){ alert("Aucune progression enregistrée pour l'instant — révise au moins une carte en mode répétition espacée d'abord."); return; }
+  const stamp = new Date().toISOString().slice(0,10);
+  downloadJSON(state, `flashcards-progression-${stamp}.json`);
+};
+
+$('#input-import-progress').addEventListener('change', async (e)=>{
+  const file = e.target.files[0]; if(!file) return;
+  try{
+    const imported = await readFileAsJSON(file);
+    const current = loadSRState();
+    const merged = { ...current, ...imported };
+    saveSRState(merged);
+    alert(`Progression importée : ${Object.keys(imported).length} carte(s) fusionnée(s) avec la progression existante (${Object.keys(current).length} carte(s) déjà présentes).`);
+  }catch(err){ alert('Fichier JSON invalide.'); }
+  e.target.value='';
+});
 
 function sm2(card, quality, srState){
   const key = card._collectionId+':'+card.id;
@@ -762,6 +794,9 @@ if('serviceWorker' in navigator){
   window.addEventListener('load', ()=>{
     navigator.serviceWorker.register('service-worker.js').catch(()=>{ /* pas grave : l'app fonctionne sans, juste sans mode hors-ligne */ });
   });
+}
+if(navigator.storage && navigator.storage.persist){
+  navigator.storage.persist().catch(()=>{});
 }
 </script>
 </body>
