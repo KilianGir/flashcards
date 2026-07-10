@@ -123,6 +123,19 @@
   details.help pre{background:var(--surface-2);padding:12px;border-radius:var(--radius-sm);font-size:.78rem;overflow:auto;color:var(--text-dim);}
   .empty-state{text-align:center;padding:40px 20px;color:var(--text-dim);}
   .small{font-size:.78rem;color:var(--text-dim);}
+
+  .app-footer{max-width:980px;margin:0 auto;padding:0 24px 40px;}
+  .install-instructions{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;}
+  .install-instructions summary{cursor:pointer;font-weight:600;font-size:.92rem;list-style:none;}
+  .install-instructions summary::-webkit-details-marker{display:none;}
+  .install-instructions[open] summary{margin-bottom:16px;}
+  .install-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  @media (max-width:760px){.install-grid{grid-template-columns:1fr;}}
+  .install-card{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:16px;}
+  .install-card h4{margin:0 0 10px;font-family:var(--font-body);font-size:.88rem;color:var(--blue);}
+  .install-card ol{margin:0;padding-left:18px;font-size:.82rem;color:var(--text-dim);line-height:1.6;}
+  .install-card ol li{margin-bottom:4px;}
+  .install-card b{color:var(--text);}
 </style>
 </head>
 <body>
@@ -325,6 +338,41 @@ LaTeX bloc:    $$\int_0^1 x^2\,dx = \frac{1}{3}$$</pre>
   </section>
 
 </main>
+
+<footer class="app-footer" id="app-footer">
+  <details class="install-instructions">
+    <summary>📲 Installer l'application sur votre appareil</summary>
+    <div class="install-grid">
+      <div class="install-card">
+        <h4>Android (Chrome)</h4>
+        <ol>
+          <li>Ouvrez cette page dans Chrome.</li>
+          <li>Appuyez sur le menu <b>⋮</b> (trois points, en haut à droite).</li>
+          <li>Sélectionnez <b>« Installer l'application »</b> (ou « Ajouter à l'écran d'accueil »).</li>
+          <li>Confirmez : une icône apparaît sur votre écran d'accueil.</li>
+        </ol>
+      </div>
+      <div class="install-card">
+        <h4>iPhone / iPad (Safari)</h4>
+        <ol>
+          <li>Ouvrez cette page dans <b>Safari</b> (obligatoire — Chrome sur iOS ne permet pas l'installation).</li>
+          <li>Appuyez sur le bouton <b>Partager</b> (le carré avec une flèche vers le haut).</li>
+          <li>Faites défiler et sélectionnez <b>« Sur l'écran d'accueil »</b>.</li>
+          <li>Confirmez : l'app s'ouvrira ensuite en plein écran, sans barre d'adresse.</li>
+        </ol>
+      </div>
+      <div class="install-card">
+        <h4>Ordinateur (Chrome / Edge)</h4>
+        <ol>
+          <li>Ouvrez cette page dans Chrome ou Edge.</li>
+          <li>Cliquez sur l'icône d'installation <b>⊕</b> dans la barre d'adresse (à droite).</li>
+          <li>Cliquez sur <b>« Installer »</b> dans la fenêtre qui s'ouvre.</li>
+        </ol>
+      </div>
+    </div>
+    <p class="small" style="margin-top:12px;">Une fois installée, l'app fonctionne hors ligne pour tout ce que vous avez déjà consulté en ligne.</p>
+  </details>
+</footer>
 
 <script>
 /* ============== Helpers ============== */
@@ -782,6 +830,12 @@ if('serviceWorker' in navigator){
 }
 if(navigator.storage && navigator.storage.persist){
   navigator.storage.persist().catch(()=>{});
+}
+
+const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+if(isStandalone){
+  const footer = $('#app-footer');
+  if(footer) footer.hidden = true;
 }
 </script>
 </body>
