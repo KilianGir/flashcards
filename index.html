@@ -85,6 +85,7 @@
   .progress-fill{height:100%;background:var(--gradient);width:0%;transition:width .25s;}
   .scene{perspective:1400px;width:100%;max-width:560px;}
   .card3d{position:relative;width:100%;min-height:220px;height:220px;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1),height .25s ease;cursor:pointer;}
+  .card3d.no-anim{transition:none !important;}
   .card3d.flipped{transform:rotateY(180deg);}
   .face{position:absolute;top:0;left:0;right:0;backface-visibility:hidden;border-radius:var(--radius);border:1px solid var(--line);background:var(--surface);padding:28px;display:flex;flex-direction:column;overflow:visible;}
   .face .corner{position:absolute;top:0;right:0;font-size:.68rem;font-weight:700;letter-spacing:.08em;padding:5px 12px;border-radius:0 var(--radius) 0 var(--radius-sm);color:#fff;}
@@ -124,6 +125,30 @@
   .empty-state{text-align:center;padding:40px 20px;color:var(--text-dim);}
   .small{font-size:.78rem;color:var(--text-dim);}
 
+  /* Statistiques */
+  .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;}
+  .stat-box{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px;text-align:center;}
+  .stat-box .value{font-family:var(--font-display);font-size:1.5rem;font-weight:700;background:var(--gradient);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .stat-box .label{font-size:.72rem;color:var(--text-dim);margin-top:4px;}
+  .bar-chart{display:flex;align-items:flex-end;gap:6px;height:140px;padding-top:10px;}
+  .bar-chart .bar-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:6px;}
+  .bar-chart .bar{width:100%;max-width:26px;border-radius:4px 4px 0 0;background:var(--gradient);min-height:2px;}
+  .bar-chart .bar.goal-met{background:linear-gradient(135deg,#3ac98a,var(--blue));}
+  .bar-chart .bar-label{font-size:.62rem;color:var(--text-dim);white-space:nowrap;}
+  .coll-stat-row{display:grid;grid-template-columns:1.4fr 2fr auto;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);}
+  .coll-stat-row:last-child{border-bottom:none;}
+  .coll-stat-name{font-weight:600;font-size:.88rem;}
+  .coll-stat-sub{font-size:.72rem;color:var(--text-dim);}
+  .ef-bar-track{height:8px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line);}
+  .ef-bar-fill{height:100%;background:var(--gradient);}
+  .card-rank-item{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:.82rem;}
+  .card-rank-item:last-child{border-bottom:none;}
+  .card-rank-item .txt{color:var(--text-dim);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .card-rank-item .val{font-weight:700;flex-shrink:0;}
+  .grade-dist-row{display:grid;grid-template-columns:110px 1fr 50px;gap:10px;align-items:center;margin-bottom:8px;font-size:.82rem;}
+  .grade-dist-track{height:10px;border-radius:99px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line);}
+  .grade-dist-fill{height:100%;}
+
   .app-footer{max-width:980px;margin:0 auto;padding:0 24px 40px;}
   .install-instructions{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;}
   .install-instructions summary{cursor:pointer;font-weight:600;font-size:.92rem;list-style:none;}
@@ -145,6 +170,7 @@
   <nav class="tabs">
     <button id="tab-reviser" class="active">Réviser</button>
     <button id="tab-gerer">Gérer</button>
+    <button id="tab-stats">Statistiques</button>
   </nav>
 </header>
 
@@ -221,7 +247,7 @@
         </div>
         <p class="hint">Clique sur la carte (ou Espace) pour révéler la réponse · ← → pour naviguer</p>
 
-        <div id="grade-area" class="grade-row" hidden>
+        <div id="grade-area" class="grade-row">
           <button class="grade-btn" data-q="0">À revoir</button>
           <button class="grade-btn" data-q="3">Difficile</button>
           <button class="grade-btn" data-q="4">Correct</button>
@@ -337,6 +363,61 @@ LaTeX bloc:    $$\int_0^1 x^2\,dx = \frac{1}{3}$$</pre>
     </div>
   </section>
 
+  <!-- ===================== STATISTIQUES ===================== -->
+  <section id="view-stats" hidden>
+    <h1>Statistiques</h1>
+    <p class="lead">Ta progression, ton objectif quotidien, et l'état de mémorisation de chaque collection.</p>
+
+    <div class="panel">
+      <h3>Objectif quotidien</h3>
+      <div class="row" style="align-items:flex-end;">
+        <label class="field" style="max-width:160px;">Cartes à réviser par jour
+          <input type="number" id="daily-goal-input" min="0" step="1" placeholder="ex: 20">
+        </label>
+        <button class="btn btn-sm" id="btn-save-goal">Enregistrer</button>
+      </div>
+      <div class="goal-progress" style="margin-top:16px;">
+        <div class="row" style="justify-content:space-between;margin-bottom:6px;">
+          <span class="small" id="goal-progress-label">—</span>
+          <span class="small" id="goal-streak-label">—</span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" id="goal-progress-fill"></div></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Vue d'ensemble</h3>
+      <div class="stat-grid" id="overview-grid"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Activité — 14 derniers jours</h3>
+      <div class="bar-chart" id="activity-chart"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Facteur de facilité moyen par collection</h3>
+      <p class="small">Plus il est élevé, mieux la collection est mémorisée (départ à 2.50, minimum 1.30).</p>
+      <div id="collection-stats-list" style="margin-top:12px;"></div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Cartes les plus difficiles</h3>
+        <div id="hardest-cards-list"></div>
+      </div>
+      <div class="panel">
+        <h3>Cartes les mieux maîtrisées</h3>
+        <div id="easiest-cards-list"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Répartition des évaluations (répétition espacée)</h3>
+      <div id="grade-distribution"></div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="app-footer" id="app-footer">
@@ -431,10 +512,17 @@ function readFileAsJSON(file){
 }
 
 /* ============== Top-level tabs ============== */
-const tabReviser = $('#tab-reviser'), tabGerer = $('#tab-gerer');
-const viewReviser = $('#view-reviser'), viewGerer = $('#view-gerer');
-tabReviser.onclick = ()=>{ tabReviser.classList.add('active'); tabGerer.classList.remove('active'); viewReviser.hidden=false; viewGerer.hidden=true; };
-tabGerer.onclick = ()=>{ tabGerer.classList.add('active'); tabReviser.classList.remove('active'); viewGerer.hidden=false; viewReviser.hidden=true; };
+const mainTabs = [
+  { btn: $('#tab-reviser'), view: $('#view-reviser') },
+  { btn: $('#tab-gerer'), view: $('#view-gerer') },
+  { btn: $('#tab-stats'), view: $('#view-stats') },
+];
+mainTabs.forEach(({btn, view})=>{
+  btn.onclick = ()=>{
+    mainTabs.forEach(t=>{ t.btn.classList.toggle('active', t.btn===btn); t.view.hidden = (t.btn!==btn); });
+    if(btn.id==='tab-stats') renderStats();
+  };
+});
 
 const subtabCartes = $('#subtab-cartes'), subtabIndex = $('#subtab-index');
 const gererCartes = $('#gerer-cartes'), gererIndex = $('#gerer-index');
@@ -447,11 +535,41 @@ let sessionMode = 'random';
 let sessionQueue = [];
 let sessionIndex = 0;
 let sessionFlipped = false;
+let currentCardCounted = false;
 let sessionStats = {total:0, graded:0};
 
 const SR_KEY = 'flashcards-sr-state-v1';
 function loadSRState(){ try{ return JSON.parse(localStorage.getItem(SR_KEY))||{}; }catch(e){ return {}; } }
 function saveSRState(state){ localStorage.setItem(SR_KEY, JSON.stringify(state)); }
+
+/* ---- Statistiques : objectif quotidien, journal de révisions, journal des notes ---- */
+const GOAL_KEY = 'flashcards-daily-goal-v1';
+const REVIEW_LOG_KEY = 'flashcards-review-log-v1';
+const GRADE_LOG_KEY = 'flashcards-grade-log-v1';
+
+function todayStr(d=new Date()){
+  const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+function loadGoal(){ const v = parseInt(localStorage.getItem(GOAL_KEY),10); return Number.isFinite(v) && v>0 ? v : 0; }
+function saveGoal(v){ localStorage.setItem(GOAL_KEY, String(v)); }
+
+function loadReviewLog(){ try{ return JSON.parse(localStorage.getItem(REVIEW_LOG_KEY))||{}; }catch(e){ return {}; } }
+function saveReviewLog(log){ localStorage.setItem(REVIEW_LOG_KEY, JSON.stringify(log)); }
+function logCardReviewed(){
+  const log = loadReviewLog();
+  const key = todayStr();
+  log[key] = (log[key]||0) + 1;
+  saveReviewLog(log);
+}
+
+function loadGradeLog(){ try{ return JSON.parse(localStorage.getItem(GRADE_LOG_KEY))||{}; }catch(e){ return {}; } }
+function saveGradeLog(log){ localStorage.setItem(GRADE_LOG_KEY, JSON.stringify(log)); }
+function logGrade(q){
+  const log = loadGradeLog();
+  log[q] = (log[q]||0) + 1;
+  saveGradeLog(log);
+}
 
 $('#btn-export-progress').onclick = ()=>{
   const state = loadSRState();
@@ -577,8 +695,6 @@ $('#btn-start-session').onclick = ()=>{
   $('#setup-panel').hidden = true;
   $('#session-done').hidden = true;
   $('#session-panel').hidden = false;
-  $('#grade-area').hidden = sessionMode!=='sr';
-  $('#nav-area').hidden = sessionMode==='sr';
   showCard();
 };
 
@@ -591,7 +707,13 @@ function shuffle(arr){
 function showCard(){
   const card = sessionQueue[sessionIndex];
   sessionFlipped = false;
-  $('#card3d').classList.remove('flipped');
+  currentCardCounted = false;
+  const card3d = $('#card3d');
+  // Réinitialise l'orientation instantanément (sans transition) AVANT de changer le contenu,
+  // pour éviter que le dos de la carte suivante ne soit visible pendant l'animation de retour.
+  card3d.classList.add('no-anim');
+  card3d.classList.remove('flipped');
+  void card3d.offsetWidth; // force le navigateur à appliquer le changement avant la suite
   renderRich($('#front-content'), card.front?.text, card.front?.image);
   renderRich($('#back-content'), card.back?.text, card.back?.image);
   [$('#front-content'),$('#back-content')].forEach(c=>{
@@ -608,6 +730,8 @@ function showCard(){
     if(img.complete) resizeCard();
     else { img.addEventListener('load', resizeCard); img.addEventListener('error', resizeCard); }
   });
+  // Réactive la transition pour le prochain flip manuel (recto -> verso)
+  requestAnimationFrame(()=>{ card3d.classList.remove('no-anim'); });
 }
 
 function updateEfBadge(card){
@@ -635,13 +759,17 @@ $('#card3d').addEventListener('click', flipCard);
 function flipCard(){
   sessionFlipped = !sessionFlipped;
   $('#card3d').classList.toggle('flipped', sessionFlipped);
+  if(sessionFlipped && !currentCardCounted){
+    currentCardCounted = true;
+    logCardReviewed();
+  }
 }
 
 document.addEventListener('keydown', (e)=>{
   if($('#session-panel').hidden) return;
   if(e.code==='Space'){ e.preventDefault(); flipCard(); }
-  if(e.code==='ArrowRight' && sessionMode==='random') goNext();
-  if(e.code==='ArrowLeft' && sessionMode==='random') goPrev();
+  if(e.code==='ArrowRight') goNext();
+  if(e.code==='ArrowLeft') goPrev();
 });
 
 $('#btn-next').onclick = goNext;
@@ -657,6 +785,7 @@ $$('.grade-btn').forEach(btn=>{
     const srState = loadSRState();
     sm2(card, q, srState);
     saveSRState(srState);
+    logGrade(q);
     sessionStats.graded++;
     if(sessionIndex < sessionQueue.length-1){ sessionIndex++; showCard(); }
     else finishSession();
@@ -670,8 +799,8 @@ function finishSession(){
   $('#progress-fill').style.width='100%';
   $('#session-panel').hidden = true;
   $('#session-done').hidden = false;
-  $('#session-summary').textContent = sessionMode==='sr'
-    ? `${sessionStats.graded} carte(s) notée(s) sur ${sessionStats.total}.`
+  $('#session-summary').textContent = sessionStats.graded>0
+    ? `${sessionStats.total} carte(s) parcourue(s), dont ${sessionStats.graded} notée(s).`
     : `${sessionStats.total} carte(s) parcourue(s).`;
 }
 
@@ -817,6 +946,171 @@ $('#input-import-index').addEventListener('change', async (e)=>{
 $('#btn-export-index').onclick = ()=>{
   downloadJSON({collections: indexRows}, 'index.json');
 };
+
+/* ============== STATISTIQUES ============== */
+
+$('#btn-save-goal').onclick = ()=>{
+  const v = parseInt($('#daily-goal-input').value, 10);
+  saveGoal(Number.isFinite(v) && v>0 ? v : 0);
+  renderStats();
+};
+
+function computeStreak(log, threshold){
+  let streak = 0;
+  let d = new Date();
+  if((log[todayStr(d)]||0) < threshold){ d.setDate(d.getDate()-1); }
+  while(true){
+    const key = todayStr(d);
+    if((log[key]||0) >= threshold){ streak++; d.setDate(d.getDate()-1); } else break;
+  }
+  return streak;
+}
+
+function computeLongestStreak(log, threshold){
+  const dates = Object.keys(log).filter(k=>(log[k]||0)>=threshold).sort();
+  if(!dates.length) return 0;
+  let longest=1, current=1;
+  for(let i=1;i<dates.length;i++){
+    const diffDays = Math.round((new Date(dates[i]) - new Date(dates[i-1]))/86400000);
+    current = diffDays===1 ? current+1 : 1;
+    longest = Math.max(longest, current);
+  }
+  return longest;
+}
+
+function statBox(value, label){
+  return `<div class="stat-box"><div class="value">${value}</div><div class="label">${label}</div></div>`;
+}
+
+function efColor(ef){
+  // 1.3 (rouge, difficile) -> 2.5 (bleu, neutre) -> 3.5+ (vert, bien maîtrisé)
+  if(ef < 2.0) return 'var(--rose)';
+  if(ef < 2.6) return 'var(--blue)';
+  return '#3ac98a';
+}
+
+function renderStats(){
+  const goal = loadGoal();
+  const reviewLog = loadReviewLog();
+  const gradeLog = loadGradeLog();
+  const srState = loadSRState();
+  const now = Date.now();
+
+  // --- Objectif quotidien ---
+  $('#daily-goal-input').value = goal || '';
+  const doneToday = reviewLog[todayStr()] || 0;
+  const threshold = goal>0 ? goal : 1;
+  const streak = computeStreak(reviewLog, threshold);
+  const longestStreak = computeLongestStreak(reviewLog, threshold);
+  if(goal>0){
+    $('#goal-progress-label').textContent = `${doneToday} / ${goal} cartes aujourd'hui`;
+    $('#goal-progress-fill').style.width = Math.min(100, (doneToday/goal)*100)+'%';
+  } else {
+    $('#goal-progress-label').textContent = `${doneToday} carte(s) revue(s) aujourd'hui (aucun objectif défini)`;
+    $('#goal-progress-fill').style.width = doneToday>0 ? '100%' : '0%';
+  }
+  $('#goal-streak-label').textContent = `🔥 Série actuelle : ${streak} jour(s) · record : ${longestStreak} jour(s)`;
+
+  // --- Vue d'ensemble ---
+  const totalCardsLibrary = loadedCollections.reduce((s,c)=>s+c.cards.length,0);
+  const srEntries = Object.entries(srState);
+  const totalStudied = srEntries.length;
+  const totalReviewsAllTime = Object.values(reviewLog).reduce((s,v)=>s+v,0);
+  const avgEfGlobal = totalStudied ? (srEntries.reduce((s,[,v])=>s+v.ef,0)/totalStudied) : null;
+  const gradeCounts = {0:gradeLog[0]||0, 3:gradeLog[3]||0, 4:gradeLog[4]||0, 5:gradeLog[5]||0};
+  const totalGrades = gradeCounts[0]+gradeCounts[3]+gradeCounts[4]+gradeCounts[5];
+  const successRate = totalGrades ? Math.round(((gradeCounts[3]+gradeCounts[4]+gradeCounts[5])/totalGrades)*100) : null;
+  const dueNow = srEntries.filter(([,v])=>v.due<=now).length;
+
+  $('#overview-grid').innerHTML = [
+    statBox(loadedCollections.length, 'Collections chargées'),
+    statBox(totalCardsLibrary, 'Cartes au total'),
+    statBox(totalStudied, 'Cartes déjà étudiées'),
+    statBox(totalReviewsAllTime, 'Révisions cumulées'),
+    statBox(avgEfGlobal!==null ? avgEfGlobal.toFixed(2) : '—', 'EF moyen global'),
+    statBox(successRate!==null ? successRate+'%' : '—', 'Taux de réussite'),
+    statBox(dueNow, 'Cartes à revoir maintenant'),
+  ].join('');
+
+  // --- Activité 14 derniers jours ---
+  const days = [];
+  for(let i=13;i>=0;i--){ const d=new Date(); d.setDate(d.getDate()-i); days.push(d); }
+  const counts = days.map(d=>reviewLog[todayStr(d)]||0);
+  const maxCount = Math.max(1, goal, ...counts);
+  const chart = $('#activity-chart');
+  chart.innerHTML = days.map((d,i)=>{
+    const c = counts[i];
+    const h = Math.max(2, Math.round((c/maxCount)*120));
+    const met = goal>0 && c>=goal;
+    const label = d.toLocaleDateString('fr-CH',{day:'2-digit',month:'2-digit'});
+    return `<div class="bar-col" title="${label} : ${c} carte(s)">
+      <div class="bar${met?' goal-met':''}" style="height:${h}px"></div>
+      <div class="bar-label">${label.slice(0,5)}</div>
+    </div>`;
+  }).join('');
+
+  // --- Stats par collection ---
+  const collWrap = $('#collection-stats-list');
+  if(loadedCollections.length===0){
+    collWrap.innerHTML = '<p class="small">Aucune collection chargée.</p>';
+  } else {
+    collWrap.innerHTML = loadedCollections.map(c=>{
+      const ids = c.cards.map(card=>`${c.id}:${card.id}`);
+      const studied = ids.map(id=>srState[id]).filter(Boolean);
+      const avgEf = studied.length ? (studied.reduce((s,v)=>s+v.ef,0)/studied.length) : null;
+      const due = studied.filter(v=>v.due<=now).length;
+      const pct = avgEf!==null ? Math.min(100, Math.max(0, ((avgEf-1.3)/(3.5-1.3))*100)) : 0;
+      return `<div class="coll-stat-row">
+        <div>
+          <div class="coll-stat-name">${c.name||c.id}</div>
+          <div class="coll-stat-sub">${studied.length}/${c.cards.length} étudiées · ${due} à revoir</div>
+        </div>
+        <div class="ef-bar-track"><div class="ef-bar-fill" style="width:${pct}%;background:${avgEf!==null?efColor(avgEf):'var(--line)'}"></div></div>
+        <div style="font-weight:700;font-size:.85rem;">${avgEf!==null ? avgEf.toFixed(2) : '—'}</div>
+      </div>`;
+    }).join('');
+  }
+
+  // --- Cartes les plus difficiles / les mieux maîtrisées ---
+  const cardLookup = {};
+  loadedCollections.forEach(c=>c.cards.forEach(card=>{ cardLookup[`${c.id}:${card.id}`] = {card, collName:c.name||c.id}; }));
+  const studiedEntries = srEntries
+    .map(([key,v])=>({key, ef:v.ef, info:cardLookup[key]}))
+    .filter(e=>e.info);
+
+  function renderCardRankList(list, elId){
+    const el = $(elId);
+    if(!list.length){ el.innerHTML = '<p class="small">Pas encore assez de données.</p>'; return; }
+    el.innerHTML = list.map(e=>{
+      const preview = (e.info.card.front?.text || '(image)').replace(/[#*_$`]/g,'').slice(0,45);
+      return `<div class="card-rank-item"><span class="txt">${preview} <span class="small">— ${e.info.collName}</span></span><span class="val" style="color:${efColor(e.ef)}">${e.ef.toFixed(2)}</span></div>`;
+    }).join('');
+  }
+  renderCardRankList([...studiedEntries].sort((a,b)=>a.ef-b.ef).slice(0,5), '#hardest-cards-list');
+  renderCardRankList([...studiedEntries].sort((a,b)=>b.ef-a.ef).slice(0,5), '#easiest-cards-list');
+
+  // --- Répartition des évaluations ---
+  const gradeDist = $('#grade-distribution');
+  if(totalGrades===0){
+    gradeDist.innerHTML = '<p class="small">Aucune évaluation enregistrée pour l\'instant — utilise le mode répétition espacée.</p>';
+  } else {
+    const rows = [
+      {label:'À revoir', q:0, color:'var(--rose)'},
+      {label:'Difficile', q:3, color:'#d99a3a'},
+      {label:'Correct', q:4, color:'var(--blue)'},
+      {label:'Facile', q:5, color:'#3ac98a'},
+    ];
+    gradeDist.innerHTML = rows.map(r=>{
+      const n = gradeCounts[r.q];
+      const pct = totalGrades ? (n/totalGrades*100) : 0;
+      return `<div class="grade-dist-row">
+        <span>${r.label}</span>
+        <div class="grade-dist-track"><div class="grade-dist-fill" style="width:${pct}%;background:${r.color}"></div></div>
+        <span class="small">${n} (${Math.round(pct)}%)</span>
+      </div>`;
+    }).join('');
+  }
+}
 
 /* init */
 renderCardList();
