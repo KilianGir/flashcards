@@ -7,7 +7,7 @@
 // Pour forcer les visiteurs à récupérer une nouvelle version de l'app shell après une mise à jour,
 // incrémente APP_VERSION ci-dessous.
 
-const APP_VERSION = 'v2';
+const APP_VERSION = 'v3';
 const SHELL_CACHE = `flashcards-shell-${APP_VERSION}`;
 const DATA_CACHE = 'flashcards-data';
 const ASSETS_CACHE = 'flashcards-assets';

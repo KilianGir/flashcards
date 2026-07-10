@@ -162,11 +162,6 @@
       </div>
 
       <div class="panel">
-        <h3>Filtrer par tag</h3>
-        <div class="row" id="tags-filter"><span class="small">Charge une collection pour voir les tags disponibles.</span></div>
-      </div>
-
-      <div class="panel">
         <h3>Mode de session</h3>
         <div class="row">
           <label class="chip active" data-mode="random"><input type="radio" name="mode" value="random" checked style="display:none;">Aléatoire simple</label>
@@ -400,7 +395,6 @@ subtabIndex.onclick = ()=>{ subtabIndex.classList.add('active'); subtabCartes.cl
 
 /* ============== REVISER : state ============== */
 let loadedCollections = []; // {id,name,cards:[...]}
-let activeTags = new Set();
 let sessionMode = 'random';
 let sessionQueue = [];
 let sessionIndex = 0;
@@ -457,34 +451,14 @@ function renderCollectionsList(){
   loadedCollections.forEach(c=>{
     const row = document.createElement('div');
     row.className='collection-row';
-    row.innerHTML = `<input type="checkbox" checked data-cid="${c.id}">
+    row.innerHTML = `<input type="checkbox" data-cid="${c.id}">
       <div class="meta"><div>${c.name||c.id}</div><div class="count">${c.cards.length} carte(s)</div></div>`;
     wrap.appendChild(row);
   });
-  renderTagsFilter();
 }
 
 $('#btn-select-all').onclick = ()=>{ $$('#collections-list input[type=checkbox]').forEach(i=>i.checked=true); };
 $('#btn-select-none').onclick = ()=>{ $$('#collections-list input[type=checkbox]').forEach(i=>i.checked=false); };
-
-function renderTagsFilter(){
-  const wrap = $('#tags-filter');
-  const allTags = new Set();
-  try{
-    loadedCollections.forEach(c=>c.cards.forEach(card=>normalizeTags(card.tags).forEach(t=>allTags.add(t))));
-  }catch(e){
-    console.error('Erreur lors du calcul des tags disponibles :', e);
-  }
-  wrap.innerHTML='';
-  if(allTags.size===0){ wrap.innerHTML='<span class="small">Aucun tag dans les collections chargées.</span>'; return; }
-  allTags.forEach(t=>{
-    const chip = document.createElement('span');
-    chip.className='chip'+(activeTags.has(t)?' active':'');
-    chip.textContent = t;
-    chip.onclick = ()=>{ activeTags.has(t)?activeTags.delete(t):activeTags.add(t); renderTagsFilter(); };
-    wrap.appendChild(chip);
-  });
-}
 
 async function loadIndexCollections(){
   const res = await fetch('collections/index.json',{cache:'no-store'});
@@ -533,8 +507,7 @@ $('#btn-start-session').onclick = ()=>{
   let cards = [];
   loadedCollections.filter(c=>checked.includes(c.id)).forEach(c=>{
     c.cards.forEach(card=>{
-      const tagged = !activeTags.size || normalizeTags(card.tags).some(t=>activeTags.has(t));
-      if(tagged) cards.push({...card, _collectionId:c.id});
+      cards.push({...card, _collectionId:c.id});
     });
   });
   if(cards.length===0){ alert('Aucune carte ne correspond à la sélection.'); return; }
