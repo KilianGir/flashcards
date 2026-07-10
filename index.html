@@ -338,6 +338,14 @@ const $$ = (sel,root=document)=>[...root.querySelectorAll(sel)];
 
 function uid(prefix='c'){ return prefix+'_'+Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
 
+// Normalise le champ "tags" d'une carte quel que soit son format d'origine :
+// tableau (cas attendu), chaîne "a, b, c" (erreur de saisie/export courante), ou absent/invalide.
+function normalizeTags(tags){
+  if(Array.isArray(tags)) return tags.filter(t=>typeof t==='string' && t.trim()).map(t=>t.trim());
+  if(typeof tags === 'string') return tags.split(',').map(t=>t.trim()).filter(Boolean);
+  return [];
+}
+
 function renderRich(container, text, imagePath){
   container.innerHTML='';
   if(text && text.trim()){
@@ -462,7 +470,11 @@ $('#btn-select-none').onclick = ()=>{ $$('#collections-list input[type=checkbox]
 function renderTagsFilter(){
   const wrap = $('#tags-filter');
   const allTags = new Set();
-  loadedCollections.forEach(c=>c.cards.forEach(card=>(card.tags||[]).forEach(t=>allTags.add(t))));
+  try{
+    loadedCollections.forEach(c=>c.cards.forEach(card=>normalizeTags(card.tags).forEach(t=>allTags.add(t))));
+  }catch(e){
+    console.error('Erreur lors du calcul des tags disponibles :', e);
+  }
   wrap.innerHTML='';
   if(allTags.size===0){ wrap.innerHTML='<span class="small">Aucun tag dans les collections chargées.</span>'; return; }
   allTags.forEach(t=>{
@@ -521,7 +533,7 @@ $('#btn-start-session').onclick = ()=>{
   let cards = [];
   loadedCollections.filter(c=>checked.includes(c.id)).forEach(c=>{
     c.cards.forEach(card=>{
-      const tagged = !activeTags.size || (card.tags||[]).some(t=>activeTags.has(t));
+      const tagged = !activeTags.size || normalizeTags(card.tags).some(t=>activeTags.has(t));
       if(tagged) cards.push({...card, _collectionId:c.id});
     });
   });
@@ -564,7 +576,7 @@ function showCard(){
   [$('#front-content'),$('#back-content')].forEach(c=>{
     const tagsRow = document.createElement('div');
     tagsRow.className='tags-row';
-    (card.tags||[]).forEach(t=>{ const p=document.createElement('span'); p.className='tag-pill'; p.textContent=t; tagsRow.appendChild(p); });
+    normalizeTags(card.tags).forEach(t=>{ const p=document.createElement('span'); p.className='tag-pill'; p.textContent=t; tagsRow.appendChild(p); });
     c.appendChild(tagsRow);
   });
   $('#session-counter').textContent = `${sessionIndex+1} / ${sessionQueue.length}`;
@@ -697,7 +709,7 @@ function renderCardList(){
     const item = document.createElement('div');
     item.className='card-list-item';
     const frontPreview = (card.front?.text||'').slice(0,80) || (card.front?.image ? '[image]' : '(vide)');
-    item.innerHTML = `<div class="txt"><b>${frontPreview}</b>${(card.tags||[]).join(', ')}</div>
+    item.innerHTML = `<div class="txt"><b>${frontPreview}</b>${normalizeTags(card.tags).join(', ')}</div>
       <button class="btn btn-sm" data-act="edit">Éditer</button>
       <button class="btn btn-sm btn-danger" data-act="del">Supprimer</button>`;
     item.querySelector('[data-act=edit]').onclick = ()=> editCard(card.id);
@@ -721,7 +733,7 @@ function editCard(id){
   $('#front-image').value = card.front?.image||'';
   $('#back-text').value = card.back?.text||'';
   $('#back-image').value = card.back?.image||'';
-  $('#card-tags').value = (card.tags||[]).join(', ');
+  $('#card-tags').value = normalizeTags(card.tags).join(', ');
   livePreview();
   window.scrollTo({top:0, behavior:'smooth'});
 }
